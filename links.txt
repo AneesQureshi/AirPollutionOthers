@@ -1,0 +1,4 @@
+http://35.154.145.131/AirQualityApp/AirPollutionApi/api/HighestLowestStationAqi/turkey
+http://13.127.29.196/AirQualityApp/AirPollutionApi/api/HomePage/28.7002/77.1638/100
+http://35.154.145.131/AirQualityApp/AirPollutionApi/api/StationPage/49
+http://35.154.145.131/AirQualityApp/AirPollutionApi/api/HighestLowestStationAqi/india

@@ -1,0 +1,628 @@
+created	updated	index_name	status	message	total	count	limit	offset	fields__name	fields__type	records__id	records__country	records__state	records__city	records__station	records__last_update	records__pollutant_id	records__pollutant_min	records__pollutant_max	records__pollutant_avg	records__pollutant_unit	version
+1522250285	1524486785	3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69	ok	Resource detail	627	627	all	0	id	keyword	1	India	Andhra_Pradesh	Amaravati	"Secretariat, Amaravati - APPCB"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		2.0.0
+									country	keyword	2	India	Andhra_Pradesh	Amaravati	"Secretariat, Amaravati - APPCB"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+									state	keyword	3	India	Andhra_Pradesh	Amaravati	"Secretariat, Amaravati - APPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+									city	keyword	4	India	Andhra_Pradesh	Amaravati	"Secretariat, Amaravati - APPCB"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+									station	keyword	5	India	Andhra_Pradesh	Amaravati	"Secretariat, Amaravati - APPCB"	23-04-2018 05:00:00	OZONE	20	20	20		
+									last_update	keyword	6	India	Andhra_Pradesh	Rajamahendravaram	"Anand Kala Kshetram, Rajamahendravaram - APPCB"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+									pollutant_id	keyword	7	India	Andhra_Pradesh	Rajamahendravaram	"Anand Kala Kshetram, Rajamahendravaram - APPCB"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+									pollutant_min	keyword	8	India	Andhra_Pradesh	Rajamahendravaram	"Anand Kala Kshetram, Rajamahendravaram - APPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+									pollutant_max	keyword	9	India	Andhra_Pradesh	Rajamahendravaram	"Anand Kala Kshetram, Rajamahendravaram - APPCB"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+									pollutant_avg	keyword	10	India	Andhra_Pradesh	Rajamahendravaram	"Anand Kala Kshetram, Rajamahendravaram - APPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+									pollutant_unit	keyword	11	India	Andhra_Pradesh	Rajamahendravaram	"Anand Kala Kshetram, Rajamahendravaram - APPCB"	23-04-2018 05:00:00	CO	NA	NA	NA		
+											12	India	Andhra_Pradesh	Rajamahendravaram	"Anand Kala Kshetram, Rajamahendravaram - APPCB"	23-04-2018 05:00:00	OZONE	40	86	81		
+											13	India	Andhra_Pradesh	Vijayawada	"PWD Grounds, Vijayawada - APPCB"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											14	India	Andhra_Pradesh	Vijayawada	"PWD Grounds, Vijayawada - APPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											15	India	Andhra_Pradesh	Vijayawada	"PWD Grounds, Vijayawada - APPCB"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											16	India	Andhra_Pradesh	Vijayawada	"PWD Grounds, Vijayawada - APPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											17	India	Andhra_Pradesh	Vijayawada	"PWD Grounds, Vijayawada - APPCB"	23-04-2018 05:00:00	CO	32	115	70		
+											18	India	Andhra_Pradesh	Vijayawada	"PWD Grounds, Vijayawada - APPCB"	23-04-2018 05:00:00	OZONE	36	36	36		
+											19	India	Andhra_Pradesh	Visakhapatnam	"GVM Corporation, Visakhapatnam - APPCB"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											20	India	Andhra_Pradesh	Visakhapatnam	"GVM Corporation, Visakhapatnam - APPCB"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											21	India	Andhra_Pradesh	Visakhapatnam	"GVM Corporation, Visakhapatnam - APPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											22	India	Andhra_Pradesh	Visakhapatnam	"GVM Corporation, Visakhapatnam - APPCB"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											23	India	Andhra_Pradesh	Visakhapatnam	"GVM Corporation, Visakhapatnam - APPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											24	India	Andhra_Pradesh	Visakhapatnam	"GVM Corporation, Visakhapatnam - APPCB"	23-04-2018 05:00:00	CO	8	34	22		
+											25	India	Andhra_Pradesh	Visakhapatnam	"GVM Corporation, Visakhapatnam - APPCB"	23-04-2018 05:00:00	OZONE	3	19	10		
+											26	India	Bihar	Gaya	"Collectorate, Gaya - BSPCB"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											27	India	Bihar	Gaya	"Collectorate, Gaya - BSPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											28	India	Bihar	Gaya	"Collectorate, Gaya - BSPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											29	India	Bihar	Gaya	"Collectorate, Gaya - BSPCB"	23-04-2018 05:00:00	CO	NA	NA	NA		
+											30	India	Bihar	Gaya	"Collectorate, Gaya - BSPCB"	23-04-2018 05:00:00	OZONE	NA	NA	NA		
+											31	India	Bihar	Muzaffarpur	"Muzaffarpur Collectorate,Muzaffarpur - BSPCB"	23-04-2018 05:00:00	PM2.5	48	303	156		
+											32	India	Bihar	Muzaffarpur	"Muzaffarpur Collectorate,Muzaffarpur - BSPCB"	23-04-2018 05:00:00	NO2	33	117	75		
+											33	India	Bihar	Muzaffarpur	"Muzaffarpur Collectorate,Muzaffarpur - BSPCB"	23-04-2018 05:00:00	SO2	11	123	86		
+											34	India	Bihar	Muzaffarpur	"Muzaffarpur Collectorate,Muzaffarpur - BSPCB"	23-04-2018 05:00:00	CO	38	62	49		
+											35	India	Bihar	Muzaffarpur	"Muzaffarpur Collectorate,Muzaffarpur - BSPCB"	23-04-2018 05:00:00	OZONE	14	215	215		
+											36	India	Bihar	Patna	"IGSC Planetarium Complex, Patna - BSPCB"	23-04-2018 05:00:00	PM2.5	62	261	166		
+											37	India	Bihar	Patna	"IGSC Planetarium Complex, Patna - BSPCB"	23-04-2018 05:00:00	NO2	5	17	12		
+											38	India	Bihar	Patna	"IGSC Planetarium Complex, Patna - BSPCB"	23-04-2018 05:00:00	SO2	46	85	61		
+											39	India	Bihar	Patna	"IGSC Planetarium Complex, Patna - BSPCB"	23-04-2018 05:00:00	CO	25	86	49		
+											40	India	Bihar	Patna	"IGSC Planetarium Complex, Patna - BSPCB"	23-04-2018 05:00:00	OZONE	17	206	157		
+											41	India	Delhi	Delhi	"Anand Vihar, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											42	India	Delhi	Delhi	"Anand Vihar, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											43	India	Delhi	Delhi	"Anand Vihar, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											44	India	Delhi	Delhi	"Anand Vihar, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											45	India	Delhi	Delhi	"Anand Vihar, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											46	India	Delhi	Delhi	"Anand Vihar, Delhi - DPCC"	23-04-2018 05:00:00	CO	28	141	66		
+											47	India	Delhi	Delhi	"Anand Vihar, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	9	92	80		
+											48	India	Delhi	Delhi	"Ashok Vihar, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											49	India	Delhi	Delhi	"Ashok Vihar, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											50	India	Delhi	Delhi	"Ashok Vihar, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											51	India	Delhi	Delhi	"Ashok Vihar, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											52	India	Delhi	Delhi	"Ashok Vihar, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											53	India	Delhi	Delhi	"Ashok Vihar, Delhi - DPCC"	23-04-2018 05:00:00	CO	8	45	12		
+											54	India	Delhi	Delhi	"Ashok Vihar, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	7	152	126		
+											55	India	Delhi	Delhi	"Aya Nagar, New Delhi - IMD"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											56	India	Delhi	Delhi	"Aya Nagar, New Delhi - IMD"	23-04-2018 05:00:00	PM10	93	168	137		
+											57	India	Delhi	Delhi	"Aya Nagar, New Delhi - IMD"	23-04-2018 05:00:00	NO2	19	21	20		
+											58	India	Delhi	Delhi	"Aya Nagar, New Delhi - IMD"	23-04-2018 05:00:00	CO	14	54	30		
+											59	India	Delhi	Delhi	"Aya Nagar, New Delhi - IMD"	23-04-2018 05:00:00	OZONE	77	95	90		
+											60	India	Delhi	Delhi	"Burari Crossing, New Delhi - IMD"	23-04-2018 05:00:00	PM2.5	47	344	140		
+											61	India	Delhi	Delhi	"Burari Crossing, New Delhi - IMD"	23-04-2018 05:00:00	NO2	32	63	45		
+											62	India	Delhi	Delhi	"Burari Crossing, New Delhi - IMD"	23-04-2018 05:00:00	CO	33	78	36		
+											63	India	Delhi	Delhi	"Burari Crossing, New Delhi - IMD"	23-04-2018 05:00:00	OZONE	25	72	52		
+											64	India	Delhi	Delhi	"CRRI Mathura Road, New Delhi - IMD"	23-04-2018 05:00:00	PM2.5	180	327	241		
+											65	India	Delhi	Delhi	"CRRI Mathura Road, New Delhi - IMD"	23-04-2018 05:00:00	PM10	128	215	166		
+											66	India	Delhi	Delhi	"CRRI Mathura Road, New Delhi - IMD"	23-04-2018 05:00:00	NO2	31	46	38		
+											67	India	Delhi	Delhi	"CRRI Mathura Road, New Delhi - IMD"	23-04-2018 05:00:00	CO	40	103	47		
+											68	India	Delhi	Delhi	"CRRI Mathura Road, New Delhi - IMD"	23-04-2018 05:00:00	OZONE	16	42	35		
+											69	India	Delhi	Delhi	"DTU, New Delhi - CPCB"	23-04-2018 05:00:00	PM2.5	33	305	125		
+											70	India	Delhi	Delhi	"DTU, New Delhi - CPCB"	23-04-2018 05:00:00	PM10	137	303	197		
+											71	India	Delhi	Delhi	"DTU, New Delhi - CPCB"	23-04-2018 05:00:00	NO2	1	9	4		
+											72	India	Delhi	Delhi	"DTU, New Delhi - CPCB"	23-04-2018 05:00:00	NH3	5	9	7		
+											73	India	Delhi	Delhi	"DTU, New Delhi - CPCB"	23-04-2018 05:00:00	CO	124	172	134		
+											74	India	Delhi	Delhi	"DTU, New Delhi - CPCB"	23-04-2018 05:00:00	OZONE	5	10	8		
+											75	India	Delhi	Delhi	"Dr. Karni Singh Shooting Range, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											76	India	Delhi	Delhi	"Dr. Karni Singh Shooting Range, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											77	India	Delhi	Delhi	"Dr. Karni Singh Shooting Range, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											78	India	Delhi	Delhi	"Dr. Karni Singh Shooting Range, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											79	India	Delhi	Delhi	"Dr. Karni Singh Shooting Range, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											80	India	Delhi	Delhi	"Dr. Karni Singh Shooting Range, Delhi - DPCC"	23-04-2018 05:00:00	CO	28	95	34		
+											81	India	Delhi	Delhi	"Dr. Karni Singh Shooting Range, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	2	265	192		
+											82	India	Delhi	Delhi	"Dwarka-Sector 8, Delhi - DPCC "	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											83	India	Delhi	Delhi	"Dwarka-Sector 8, Delhi - DPCC "	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											84	India	Delhi	Delhi	"Dwarka-Sector 8, Delhi - DPCC "	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											85	India	Delhi	Delhi	"Dwarka-Sector 8, Delhi - DPCC "	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											86	India	Delhi	Delhi	"Dwarka-Sector 8, Delhi - DPCC "	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											87	India	Delhi	Delhi	"Dwarka-Sector 8, Delhi - DPCC "	23-04-2018 05:00:00	CO	15	52	32		
+											88	India	Delhi	Delhi	"Dwarka-Sector 8, Delhi - DPCC "	23-04-2018 05:00:00	OZONE	35	161	142		
+											89	India	Delhi	Delhi	"IGI Airport Terminal - 3, New Delhi - IMD"	23-04-2018 05:00:00	PM2.5	4	192	83		
+											90	India	Delhi	Delhi	"IGI Airport Terminal - 3, New Delhi - IMD"	23-04-2018 05:00:00	PM10	72	190	132		
+											91	India	Delhi	Delhi	"IGI Airport Terminal - 3, New Delhi - IMD"	23-04-2018 05:00:00	NO2	42	68	56		
+											92	India	Delhi	Delhi	"IGI Airport Terminal - 3, New Delhi - IMD"	23-04-2018 05:00:00	CO	35	46	40		
+											93	India	Delhi	Delhi	"IGI Airport Terminal - 3, New Delhi - IMD"	23-04-2018 05:00:00	OZONE	26	60	55		
+											94	India	Delhi	Delhi	"IHBAS, Dilshad Garden,New Delhi - CPCB"	23-04-2018 05:00:00	PM2.5	65	275	142		
+											95	India	Delhi	Delhi	"IHBAS, Dilshad Garden,New Delhi - CPCB"	23-04-2018 05:00:00	NO2	23	132	56		
+											96	India	Delhi	Delhi	"IHBAS, Dilshad Garden,New Delhi - CPCB"	23-04-2018 05:00:00	NH3	7	16	10		
+											97	India	Delhi	Delhi	"IHBAS, Dilshad Garden,New Delhi - CPCB"	23-04-2018 05:00:00	SO2	2	32	17		
+											98	India	Delhi	Delhi	"IHBAS, Dilshad Garden,New Delhi - CPCB"	23-04-2018 05:00:00	CO	2	110	37		
+											99	India	Delhi	Delhi	"Jahangirpuri, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											100	India	Delhi	Delhi	"Jahangirpuri, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											101	India	Delhi	Delhi	"Jahangirpuri, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											102	India	Delhi	Delhi	"Jahangirpuri, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											103	India	Delhi	Delhi	"Jahangirpuri, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											104	India	Delhi	Delhi	"Jahangirpuri, Delhi - DPCC"	23-04-2018 05:00:00	CO	25	101	40		
+											105	India	Delhi	Delhi	"Jahangirpuri, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	19	84	74		
+											106	India	Delhi	Delhi	"Jawaharlal Nehru Stadium, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											107	India	Delhi	Delhi	"Jawaharlal Nehru Stadium, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											108	India	Delhi	Delhi	"Jawaharlal Nehru Stadium, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											109	India	Delhi	Delhi	"Jawaharlal Nehru Stadium, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											110	India	Delhi	Delhi	"Jawaharlal Nehru Stadium, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											111	India	Delhi	Delhi	"Jawaharlal Nehru Stadium, Delhi - DPCC"	23-04-2018 05:00:00	CO	22	94	27		
+											112	India	Delhi	Delhi	"Jawaharlal Nehru Stadium, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	2	218	153		
+											113	India	Delhi	Delhi	"Major Dhyan Chand National Stadium, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											114	India	Delhi	Delhi	"Major Dhyan Chand National Stadium, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											115	India	Delhi	Delhi	"Major Dhyan Chand National Stadium, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											116	India	Delhi	Delhi	"Major Dhyan Chand National Stadium, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											117	India	Delhi	Delhi	"Major Dhyan Chand National Stadium, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											118	India	Delhi	Delhi	"Major Dhyan Chand National Stadium, Delhi - DPCC"	23-04-2018 05:00:00	CO	20	80	24		
+											119	India	Delhi	Delhi	"Major Dhyan Chand National Stadium, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	4	119	105		
+											120	India	Delhi	Delhi	"Mandir Marg, New Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											121	India	Delhi	Delhi	"Mandir Marg, New Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											122	India	Delhi	Delhi	"Mandir Marg, New Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											123	India	Delhi	Delhi	"Mandir Marg, New Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											124	India	Delhi	Delhi	"Mandir Marg, New Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											125	India	Delhi	Delhi	"Mandir Marg, New Delhi - DPCC"	23-04-2018 05:00:00	CO	1	46	13		
+											126	India	Delhi	Delhi	"Mandir Marg, New Delhi - DPCC"	23-04-2018 05:00:00	OZONE	20	75	68		
+											127	India	Delhi	Delhi	"NSIT Dwarka, New Delhi - CPCB"	23-04-2018 05:00:00	PM2.5	143	314	246		
+											128	India	Delhi	Delhi	"NSIT Dwarka, New Delhi - CPCB"	23-04-2018 05:00:00	NO2	28	84	45		
+											129	India	Delhi	Delhi	"NSIT Dwarka, New Delhi - CPCB"	23-04-2018 05:00:00	SO2	2	28	12		
+											130	India	Delhi	Delhi	"NSIT Dwarka, New Delhi - CPCB"	23-04-2018 05:00:00	CO	6	28	15		
+											131	India	Delhi	Delhi	"NSIT Dwarka, New Delhi - CPCB"	23-04-2018 05:00:00	OZONE	17	72	63		
+											132	India	Delhi	Delhi	"Najafgarh, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											133	India	Delhi	Delhi	"Najafgarh, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											134	India	Delhi	Delhi	"Najafgarh, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											135	India	Delhi	Delhi	"Najafgarh, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											136	India	Delhi	Delhi	"Najafgarh, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											137	India	Delhi	Delhi	"Najafgarh, Delhi - DPCC"	23-04-2018 05:00:00	CO	28	176	92		
+											138	India	Delhi	Delhi	"Najafgarh, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	151	264	251		
+											139	India	Delhi	Delhi	"Narela, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											140	India	Delhi	Delhi	"Narela, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											141	India	Delhi	Delhi	"Narela, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											142	India	Delhi	Delhi	"Narela, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											143	India	Delhi	Delhi	"Narela, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											144	India	Delhi	Delhi	"Narela, Delhi - DPCC"	23-04-2018 05:00:00	CO	10	35	14		
+											145	India	Delhi	Delhi	"Narela, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	49	170	158		
+											146	India	Delhi	Delhi	"Nehru Nagar, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											147	India	Delhi	Delhi	"Nehru Nagar, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											148	India	Delhi	Delhi	"Nehru Nagar, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											149	India	Delhi	Delhi	"Nehru Nagar, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											150	India	Delhi	Delhi	"Nehru Nagar, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											151	India	Delhi	Delhi	"Nehru Nagar, Delhi - DPCC"	23-04-2018 05:00:00	CO	3	60	7		
+											152	India	Delhi	Delhi	"Nehru Nagar, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	2	180	156		
+											153	India	Delhi	Delhi	"Okhla Phase-2, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											154	India	Delhi	Delhi	"Okhla Phase-2, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											155	India	Delhi	Delhi	"Okhla Phase-2, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											156	India	Delhi	Delhi	"Okhla Phase-2, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											157	India	Delhi	Delhi	"Okhla Phase-2, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											158	India	Delhi	Delhi	"Okhla Phase-2, Delhi - DPCC"	23-04-2018 05:00:00	CO	32	90	37		
+											159	India	Delhi	Delhi	"Okhla Phase-2, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	1	64	50		
+											160	India	Delhi	Delhi	"Patparganj, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											161	India	Delhi	Delhi	"Patparganj, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											162	India	Delhi	Delhi	"Patparganj, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											163	India	Delhi	Delhi	"Patparganj, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											164	India	Delhi	Delhi	"Patparganj, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											165	India	Delhi	Delhi	"Patparganj, Delhi - DPCC"	23-04-2018 05:00:00	CO	10	68	16		
+											166	India	Delhi	Delhi	"Patparganj, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	1	200	186		
+											167	India	Delhi	Delhi	"Punjabi Bagh, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											168	India	Delhi	Delhi	"Punjabi Bagh, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											169	India	Delhi	Delhi	"Punjabi Bagh, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											170	India	Delhi	Delhi	"Punjabi Bagh, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											171	India	Delhi	Delhi	"Punjabi Bagh, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											172	India	Delhi	Delhi	"Punjabi Bagh, Delhi - DPCC"	23-04-2018 05:00:00	CO	16	75	20		
+											173	India	Delhi	Delhi	"Punjabi Bagh, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	10	198	149		
+											174	India	Delhi	Delhi	"Pusa, New Delhi - IMD"	23-04-2018 05:00:00	PM2.5	31	74	55		
+											175	India	Delhi	Delhi	"Pusa, New Delhi - IMD"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											176	India	Delhi	Delhi	"Pusa, New Delhi - IMD"	23-04-2018 05:00:00	NO2	36	50	41		
+											177	India	Delhi	Delhi	"Pusa, New Delhi - IMD"	23-04-2018 05:00:00	CO	14	36	21		
+											178	India	Delhi	Delhi	"Pusa, New Delhi - IMD"	23-04-2018 05:00:00	OZONE	18	46	44		
+											179	India	Delhi	Delhi	"R K Puram, New Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											180	India	Delhi	Delhi	"R K Puram, New Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											181	India	Delhi	Delhi	"R K Puram, New Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											182	India	Delhi	Delhi	"R K Puram, New Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											183	India	Delhi	Delhi	"R K Puram, New Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											184	India	Delhi	Delhi	"R K Puram, New Delhi - DPCC"	23-04-2018 05:00:00	CO	48	102	89		
+											185	India	Delhi	Delhi	"R K Puram, New Delhi - DPCC"	23-04-2018 05:00:00	OZONE	9	147	132		
+											186	India	Delhi	Delhi	"Rohini, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											187	India	Delhi	Delhi	"Rohini, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											188	India	Delhi	Delhi	"Rohini, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											189	India	Delhi	Delhi	"Rohini, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											190	India	Delhi	Delhi	"Rohini, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											191	India	Delhi	Delhi	"Rohini, Delhi - DPCC"	23-04-2018 05:00:00	CO	15	48	19		
+											192	India	Delhi	Delhi	"Rohini, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	46	152	136		
+											193	India	Delhi	Delhi	"Shadipur, New Delhi - CPCB"	23-04-2018 05:00:00	PM2.5	62	205	108		
+											194	India	Delhi	Delhi	"Shadipur, New Delhi - CPCB"	23-04-2018 05:00:00	NO2	22	110	48		
+											195	India	Delhi	Delhi	"Shadipur, New Delhi - CPCB"	23-04-2018 05:00:00	SO2	7	38	22		
+											196	India	Delhi	Delhi	"Shadipur, New Delhi - CPCB"	23-04-2018 05:00:00	CO	10	61	26		
+											197	India	Delhi	Delhi	"Shadipur, New Delhi - CPCB"	23-04-2018 05:00:00	OZONE	2	85	72		
+											198	India	Delhi	Delhi	"Sirifort, New Delhi - CPCB"	23-04-2018 05:00:00	PM2.5	38	270	97		
+											199	India	Delhi	Delhi	"Sirifort, New Delhi - CPCB"	23-04-2018 05:00:00	PM10	148	287	200		
+											200	India	Delhi	Delhi	"Sirifort, New Delhi - CPCB"	23-04-2018 05:00:00	NO2	10	11	11		
+											201	India	Delhi	Delhi	"Sirifort, New Delhi - CPCB"	23-04-2018 05:00:00	NH3	2	3	2		
+											202	India	Delhi	Delhi	"Sirifort, New Delhi - CPCB"	23-04-2018 05:00:00	OZONE	4	129	99		
+											203	India	Delhi	Delhi	"Sonia Vihar, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											204	India	Delhi	Delhi	"Sonia Vihar, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											205	India	Delhi	Delhi	"Sonia Vihar, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											206	India	Delhi	Delhi	"Sonia Vihar, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											207	India	Delhi	Delhi	"Sonia Vihar, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											208	India	Delhi	Delhi	"Sonia Vihar, Delhi - DPCC"	23-04-2018 05:00:00	CO	15	28	18		
+											209	India	Delhi	Delhi	"Sonia Vihar, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	197	272	262		
+											210	India	Delhi	Delhi	"Vivek Vihar, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											211	India	Delhi	Delhi	"Vivek Vihar, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											212	India	Delhi	Delhi	"Vivek Vihar, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											213	India	Delhi	Delhi	"Vivek Vihar, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											214	India	Delhi	Delhi	"Vivek Vihar, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											215	India	Delhi	Delhi	"Vivek Vihar, Delhi - DPCC"	23-04-2018 05:00:00	CO	29	65	34		
+											216	India	Delhi	Delhi	"Vivek Vihar, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	30	159	138		
+											217	India	Delhi	Delhi	"Wazirpur, Delhi - DPCC"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											218	India	Delhi	Delhi	"Wazirpur, Delhi - DPCC"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											219	India	Delhi	Delhi	"Wazirpur, Delhi - DPCC"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											220	India	Delhi	Delhi	"Wazirpur, Delhi - DPCC"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											221	India	Delhi	Delhi	"Wazirpur, Delhi - DPCC"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											222	India	Delhi	Delhi	"Wazirpur, Delhi - DPCC"	23-04-2018 05:00:00	CO	9	50	11		
+											223	India	Delhi	Delhi	"Wazirpur, Delhi - DPCC"	23-04-2018 05:00:00	OZONE	6	128	110		
+											224	India	Gujarat	Ahmedabad	"Maninagar, Ahmedabad - GPCB"	23-04-2018 05:00:00	PM2.5	34	170	99		
+											225	India	Gujarat	Ahmedabad	"Maninagar, Ahmedabad - GPCB"	23-04-2018 05:00:00	NO2	23	216	96		
+											226	India	Gujarat	Ahmedabad	"Maninagar, Ahmedabad - GPCB"	23-04-2018 05:00:00	SO2	4	52	20		
+											227	India	Gujarat	Ahmedabad	"Maninagar, Ahmedabad - GPCB"	23-04-2018 05:00:00	CO	7	129	32		
+											228	India	Gujarat	Ahmedabad	"Maninagar, Ahmedabad - GPCB"	23-04-2018 05:00:00	OZONE	114	144	128		
+											229	India	Haryana	Faridabad	"Sector- 16A, Faridabad, Haryana - HSPCB"	23-04-2018 05:00:00	PM2.5	43	460	148		
+											230	India	Haryana	Faridabad	"Sector- 16A, Faridabad, Haryana - HSPCB"	23-04-2018 05:00:00	NO2	56	126	104		
+											231	India	Haryana	Faridabad	"Sector- 16A, Faridabad, Haryana - HSPCB"	23-04-2018 05:00:00	SO2	7	43	18		
+											232	India	Haryana	Faridabad	"Sector- 16A, Faridabad, Haryana - HSPCB"	23-04-2018 05:00:00	OZONE	23	119	101		
+											233	India	Haryana	Gurgaon	"Vikas Sadan, Gurgaon, Haryana - HSPCB"	23-04-2018 05:00:00	PM2.5	288	500	380		
+											234	India	Haryana	Gurgaon	"Vikas Sadan, Gurgaon, Haryana - HSPCB"	23-04-2018 05:00:00	NO2	28	36	33		
+											235	India	Haryana	Gurgaon	"Vikas Sadan, Gurgaon, Haryana - HSPCB"	23-04-2018 05:00:00	SO2	10	55	29		
+											236	India	Haryana	Gurgaon	"Vikas Sadan, Gurgaon, Haryana - HSPCB"	23-04-2018 05:00:00	CO	11	53	37		
+											237	India	Haryana	Gurgaon	"Vikas Sadan, Gurgaon, Haryana - HSPCB"	23-04-2018 05:00:00	OZONE	45	150	130		
+											238	India	Haryana	Panchkula	"Sector-6, Panchkula - HSPCB "	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											239	India	Haryana	Panchkula	"Sector-6, Panchkula - HSPCB "	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											240	India	Haryana	Panchkula	"Sector-6, Panchkula - HSPCB "	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											241	India	Haryana	Panchkula	"Sector-6, Panchkula - HSPCB "	23-04-2018 05:00:00	CO	39	39	39		
+											242	India	Haryana	Panchkula	"Sector-6, Panchkula - HSPCB "	23-04-2018 05:00:00	OZONE	69	69	69		
+											243	India	Haryana	Rohtak	"MD University, Rohtak, Haryana - HSPCB"	23-04-2018 05:00:00	PM2.5	17	352	138		
+											244	India	Haryana	Rohtak	"MD University, Rohtak, Haryana - HSPCB"	23-04-2018 05:00:00	NO2	17	19	19		
+											245	India	Haryana	Rohtak	"MD University, Rohtak, Haryana - HSPCB"	23-04-2018 05:00:00	SO2	3	111	29		
+											246	India	Haryana	Rohtak	"MD University, Rohtak, Haryana - HSPCB"	23-04-2018 05:00:00	CO	12	85	48		
+											247	India	Haryana	Rohtak	"MD University, Rohtak, Haryana - HSPCB"	23-04-2018 05:00:00	OZONE	22	30	26		
+											248	India	Jharkhand	Jorapokhar	"Tata Stadium, Jorapokhar - JSPCB"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											249	India	Jharkhand	Jorapokhar	"Tata Stadium, Jorapokhar - JSPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											250	India	Jharkhand	Jorapokhar	"Tata Stadium, Jorapokhar - JSPCB"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											251	India	Jharkhand	Jorapokhar	"Tata Stadium, Jorapokhar - JSPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											252	India	Jharkhand	Jorapokhar	"Tata Stadium, Jorapokhar - JSPCB"	23-04-2018 05:00:00	CO	3	56	18		
+											253	India	Jharkhand	Jorapokhar	"Tata Stadium, Jorapokhar - JSPCB"	23-04-2018 05:00:00	OZONE	50	54	53		
+											254	India	Karnataka	Bengaluru	"BWSSB Kadabesanahalli, Bengaluru - CPCB"	23-04-2018 05:00:00	PM2.5	16	295	72		
+											255	India	Karnataka	Bengaluru	"BWSSB Kadabesanahalli, Bengaluru - CPCB"	23-04-2018 05:00:00	NO2	9	64	25		
+											256	India	Karnataka	Bengaluru	"BWSSB Kadabesanahalli, Bengaluru - CPCB"	23-04-2018 05:00:00	SO2	3	6	5		
+											257	India	Karnataka	Bengaluru	"BWSSB Kadabesanahalli, Bengaluru - CPCB"	23-04-2018 05:00:00	CO	33	57	37		
+											258	India	Karnataka	Bengaluru	"BWSSB Kadabesanahalli, Bengaluru - CPCB"	23-04-2018 05:00:00	OZONE	1	47	31		
+											259	India	Karnataka	Bengaluru	"City Railway Station, Bengaluru - KSPCB"	23-04-2018 05:00:00	PM10	32	170	111		
+											260	India	Karnataka	Bengaluru	"City Railway Station, Bengaluru - KSPCB"	23-04-2018 05:00:00	NO2	8	88	43		
+											261	India	Karnataka	Bengaluru	"City Railway Station, Bengaluru - KSPCB"	23-04-2018 05:00:00	SO2	2	17	9		
+											262	India	Karnataka	Bengaluru	"City Railway Station, Bengaluru - KSPCB"	23-04-2018 05:00:00	CO	31	81	60		
+											263	India	Karnataka	Bengaluru	"Peenya, Bengaluru - CPCB"	23-04-2018 05:00:00	PM2.5	16	246	52		
+											264	India	Karnataka	Bengaluru	"Peenya, Bengaluru - CPCB"	23-04-2018 05:00:00	NO2	10	25	15		
+											265	India	Karnataka	Bengaluru	"Peenya, Bengaluru - CPCB"	23-04-2018 05:00:00	NH3	11	13	12		
+											266	India	Karnataka	Bengaluru	"Peenya, Bengaluru - CPCB"	23-04-2018 05:00:00	SO2	3	12	7		
+											267	India	Karnataka	Bengaluru	"Peenya, Bengaluru - CPCB"	23-04-2018 05:00:00	CO	6	108	30		
+											268	India	Karnataka	Bengaluru	"Sanegurava Halli, Bengaluru - KSPCB"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											269	India	Karnataka	Bengaluru	"Sanegurava Halli, Bengaluru - KSPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											270	India	Karnataka	Bengaluru	"Sanegurava Halli, Bengaluru - KSPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											271	India	Karnataka	Bengaluru	"Sanegurava Halli, Bengaluru - KSPCB"	23-04-2018 05:00:00	CO	41	41	41		
+											272	India	Kerala	Thiruvananthapuram	"Plammoodu, Thiruvananthapuram - Kerala PCB"	23-04-2018 05:00:00	PM2.5	32	58	44		
+											273	India	Kerala	Thiruvananthapuram	"Plammoodu, Thiruvananthapuram - Kerala PCB"	23-04-2018 05:00:00	PM10	44	72	57		
+											274	India	Kerala	Thiruvananthapuram	"Plammoodu, Thiruvananthapuram - Kerala PCB"	23-04-2018 05:00:00	NO2	7	31	17		
+											275	India	Kerala	Thiruvananthapuram	"Plammoodu, Thiruvananthapuram - Kerala PCB"	23-04-2018 05:00:00	NH3	1	1	1		
+											276	India	Kerala	Thiruvananthapuram	"Plammoodu, Thiruvananthapuram - Kerala PCB"	23-04-2018 05:00:00	SO2	6	12	8		
+											277	India	Kerala	Thiruvananthapuram	"Plammoodu, Thiruvananthapuram - Kerala PCB"	23-04-2018 05:00:00	CO	27	80	50		
+											278	India	Kerala	Thiruvananthapuram	"Plammoodu, Thiruvananthapuram - Kerala PCB"	23-04-2018 05:00:00	OZONE	14	72	64		
+											279	India	Madhya Pradesh	Dewas	"Bhopal Chauraha, Dewas - MPPCB"	23-04-2018 05:00:00	PM2.5	41	155	78		
+											280	India	Madhya Pradesh	Dewas	"Bhopal Chauraha, Dewas - MPPCB"	23-04-2018 05:00:00	PM10	103	297	165		
+											281	India	Madhya Pradesh	Dewas	"Bhopal Chauraha, Dewas - MPPCB"	23-04-2018 05:00:00	NO2	7	77	26		
+											282	India	Madhya Pradesh	Dewas	"Bhopal Chauraha, Dewas - MPPCB"	23-04-2018 05:00:00	NH3	2	3	3		
+											283	India	Madhya Pradesh	Dewas	"Bhopal Chauraha, Dewas - MPPCB"	23-04-2018 05:00:00	SO2	4	14	8		
+											284	India	Madhya Pradesh	Dewas	"Bhopal Chauraha, Dewas - MPPCB"	23-04-2018 05:00:00	CO	20	84	25		
+											285	India	Madhya Pradesh	Dewas	"Bhopal Chauraha, Dewas - MPPCB"	23-04-2018 05:00:00	OZONE	43	139	120		
+											286	India	Madhya Pradesh	Mandideep	"Sector-D Industrial Area, Mandideep - MPPCB"	23-04-2018 05:00:00	PM2.5	56	360	206		
+											287	India	Madhya Pradesh	Mandideep	"Sector-D Industrial Area, Mandideep - MPPCB"	23-04-2018 05:00:00	PM10	129	350	212		
+											288	India	Madhya Pradesh	Mandideep	"Sector-D Industrial Area, Mandideep - MPPCB"	23-04-2018 05:00:00	NO2	5	47	23		
+											289	India	Madhya Pradesh	Mandideep	"Sector-D Industrial Area, Mandideep - MPPCB"	23-04-2018 05:00:00	NH3	1	4	3		
+											290	India	Madhya Pradesh	Mandideep	"Sector-D Industrial Area, Mandideep - MPPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											291	India	Madhya Pradesh	Mandideep	"Sector-D Industrial Area, Mandideep - MPPCB"	23-04-2018 05:00:00	CO	40	104	57		
+											292	India	Madhya Pradesh	Mandideep	"Sector-D Industrial Area, Mandideep - MPPCB"	23-04-2018 05:00:00	OZONE	6	118	100		
+											293	India	Madhya Pradesh	Pithampur	"Sector-2 Industrial Area, Pithampur - MPPCB"	23-04-2018 05:00:00	PM2.5	47	224	91		
+											294	India	Madhya Pradesh	Pithampur	"Sector-2 Industrial Area, Pithampur - MPPCB"	23-04-2018 05:00:00	PM10	117	209	158		
+											295	India	Madhya Pradesh	Pithampur	"Sector-2 Industrial Area, Pithampur - MPPCB"	23-04-2018 05:00:00	NO2	2	13	6		
+											296	India	Madhya Pradesh	Pithampur	"Sector-2 Industrial Area, Pithampur - MPPCB"	23-04-2018 05:00:00	NH3	3	4	3		
+											297	India	Madhya Pradesh	Pithampur	"Sector-2 Industrial Area, Pithampur - MPPCB"	23-04-2018 05:00:00	SO2	3	10	6		
+											298	India	Madhya Pradesh	Pithampur	"Sector-2 Industrial Area, Pithampur - MPPCB"	23-04-2018 05:00:00	CO	18	67	32		
+											299	India	Madhya Pradesh	Pithampur	"Sector-2 Industrial Area, Pithampur - MPPCB"	23-04-2018 05:00:00	OZONE	63	113	102		
+											300	India	Madhya Pradesh	Satna	"Bandhavgar Colony, Satna - MPPCB"	23-04-2018 05:00:00	PM2.5	6	481	39		
+											301	India	Madhya Pradesh	Satna	"Bandhavgar Colony, Satna - MPPCB"	23-04-2018 05:00:00	PM10	80	179	113		
+											302	India	Madhya Pradesh	Satna	"Bandhavgar Colony, Satna - MPPCB"	23-04-2018 05:00:00	SO2	6	9	8		
+											303	India	Madhya Pradesh	Satna	"Bandhavgar Colony, Satna - MPPCB"	23-04-2018 05:00:00	CO	35	74	68		
+											304	India	Madhya Pradesh	Singrauli	"Vindhyachal STPS, Singrauli - MPPCB"	23-04-2018 05:00:00	PM2.5	48	316	187		
+											305	India	Madhya Pradesh	Singrauli	"Vindhyachal STPS, Singrauli - MPPCB"	23-04-2018 05:00:00	PM10	144	442	311		
+											306	India	Madhya Pradesh	Singrauli	"Vindhyachal STPS, Singrauli - MPPCB"	23-04-2018 05:00:00	NO2	11	100	52		
+											307	India	Madhya Pradesh	Singrauli	"Vindhyachal STPS, Singrauli - MPPCB"	23-04-2018 05:00:00	NH3	4	10	7		
+											308	India	Madhya Pradesh	Singrauli	"Vindhyachal STPS, Singrauli - MPPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											309	India	Madhya Pradesh	Singrauli	"Vindhyachal STPS, Singrauli - MPPCB"	23-04-2018 05:00:00	CO	26	101	64		
+											310	India	Madhya Pradesh	Singrauli	"Vindhyachal STPS, Singrauli - MPPCB"	23-04-2018 05:00:00	OZONE	5	44	35		
+											311	India	Madhya Pradesh	Ujjain	"Mahakaleshwar Temple, Ujjain - MPPCB"	23-04-2018 05:00:00	PM2.5	38	188	89		
+											312	India	Madhya Pradesh	Ujjain	"Mahakaleshwar Temple, Ujjain - MPPCB"	23-04-2018 05:00:00	PM10	103	253	168		
+											313	India	Madhya Pradesh	Ujjain	"Mahakaleshwar Temple, Ujjain - MPPCB"	23-04-2018 05:00:00	NO2	6	54	23		
+											314	India	Madhya Pradesh	Ujjain	"Mahakaleshwar Temple, Ujjain - MPPCB"	23-04-2018 05:00:00	NH3	4	8	6		
+											315	India	Madhya Pradesh	Ujjain	"Mahakaleshwar Temple, Ujjain - MPPCB"	23-04-2018 05:00:00	SO2	4	12	8		
+											316	India	Madhya Pradesh	Ujjain	"Mahakaleshwar Temple, Ujjain - MPPCB"	23-04-2018 05:00:00	CO	33	79	40		
+											317	India	Madhya Pradesh	Ujjain	"Mahakaleshwar Temple, Ujjain - MPPCB"	23-04-2018 05:00:00	OZONE	53	193	188		
+											318	India	Maharashtra	Aurangabad	"More Chowk Waluj, Aurangabad - MPCB"	23-04-2018 05:00:00	PM2.5	47	202	88		
+											319	India	Maharashtra	Aurangabad	"More Chowk Waluj, Aurangabad - MPCB"	23-04-2018 05:00:00	PM10	72	158	111		
+											320	India	Maharashtra	Aurangabad	"More Chowk Waluj, Aurangabad - MPCB"	23-04-2018 05:00:00	NO2	13	25	18		
+											321	India	Maharashtra	Aurangabad	"More Chowk Waluj, Aurangabad - MPCB"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											322	India	Maharashtra	Aurangabad	"More Chowk Waluj, Aurangabad - MPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											323	India	Maharashtra	Aurangabad	"More Chowk Waluj, Aurangabad - MPCB"	23-04-2018 05:00:00	CO	14	28	20		
+											324	India	Maharashtra	Aurangabad	"More Chowk Waluj, Aurangabad - MPCB"	23-04-2018 05:00:00	OZONE	111	125	118		
+											325	India	Maharashtra	Chandrapur	"Chandrapur, Chandrapur - MPCB"	23-04-2018 05:00:00	PM2.5	45	146	76		
+											326	India	Maharashtra	Chandrapur	"Chandrapur, Chandrapur - MPCB"	23-04-2018 05:00:00	PM10	66	172	107		
+											327	India	Maharashtra	Chandrapur	"Chandrapur, Chandrapur - MPCB"	23-04-2018 05:00:00	NO2	20	33	22		
+											328	India	Maharashtra	Chandrapur	"Chandrapur, Chandrapur - MPCB"	23-04-2018 05:00:00	NH3	7	15	11		
+											329	India	Maharashtra	Chandrapur	"Chandrapur, Chandrapur - MPCB"	23-04-2018 05:00:00	SO2	9	32	12		
+											330	India	Maharashtra	Chandrapur	"Chandrapur, Chandrapur - MPCB"	23-04-2018 05:00:00	CO	1	37	13		
+											331	India	Maharashtra	Chandrapur	"Chandrapur, Chandrapur - MPCB"	23-04-2018 05:00:00	OZONE	9	15	12		
+											332	India	Maharashtra	Chandrapur	"MIDC Khutala, Chandrapur - MPCB"	23-04-2018 05:00:00	PM10	65	149	102		
+											333	India	Maharashtra	Chandrapur	"MIDC Khutala, Chandrapur - MPCB"	23-04-2018 05:00:00	NO2	6	18	11		
+											334	India	Maharashtra	Chandrapur	"MIDC Khutala, Chandrapur - MPCB"	23-04-2018 05:00:00	NH3	1	2	2		
+											335	India	Maharashtra	Chandrapur	"MIDC Khutala, Chandrapur - MPCB"	23-04-2018 05:00:00	SO2	1	9	3		
+											336	India	Maharashtra	Chandrapur	"MIDC Khutala, Chandrapur - MPCB"	23-04-2018 05:00:00	CO	28	59	34		
+											337	India	Maharashtra	Chandrapur	"MIDC Khutala, Chandrapur - MPCB"	23-04-2018 05:00:00	OZONE	34	149	117		
+											338	India	Maharashtra	Nagpur	"Opp GPO Civil Lines, Nagpur - MPCB"	23-04-2018 05:00:00	PM2.5	45	126	78		
+											339	India	Maharashtra	Nagpur	"Opp GPO Civil Lines, Nagpur - MPCB"	23-04-2018 05:00:00	PM10	6	32	17		
+											340	India	Maharashtra	Nagpur	"Opp GPO Civil Lines, Nagpur - MPCB"	23-04-2018 05:00:00	NO2	18	132	46		
+											341	India	Maharashtra	Nagpur	"Opp GPO Civil Lines, Nagpur - MPCB"	23-04-2018 05:00:00	NH3	1	12	3		
+											342	India	Maharashtra	Nagpur	"Opp GPO Civil Lines, Nagpur - MPCB"	23-04-2018 05:00:00	SO2	4	126	36		
+											343	India	Maharashtra	Nagpur	"Opp GPO Civil Lines, Nagpur - MPCB"	23-04-2018 05:00:00	CO	18	122	54		
+											344	India	Maharashtra	Nagpur	"Opp GPO Civil Lines, Nagpur - MPCB"	23-04-2018 05:00:00	OZONE	5	116	87		
+											345	India	Maharashtra	Nashik	"Gangapur Road, Nashik - MPCB"	23-04-2018 05:00:00	PM2.5	53	106	73		
+											346	India	Maharashtra	Nashik	"Gangapur Road, Nashik - MPCB"	23-04-2018 05:00:00	PM10	58	101	76		
+											347	India	Maharashtra	Nashik	"Gangapur Road, Nashik - MPCB"	23-04-2018 05:00:00	NO2	12	38	22		
+											348	India	Maharashtra	Nashik	"Gangapur Road, Nashik - MPCB"	23-04-2018 05:00:00	NH3	2	5	4		
+											349	India	Maharashtra	Nashik	"Gangapur Road, Nashik - MPCB"	23-04-2018 05:00:00	SO2	1	13	6		
+											350	India	Maharashtra	Nashik	"Gangapur Road, Nashik - MPCB"	23-04-2018 05:00:00	CO	3	30	15		
+											351	India	Maharashtra	Nashik	"Gangapur Road, Nashik - MPCB"	23-04-2018 05:00:00	OZONE	47	154	154		
+											352	India	Maharashtra	Navi Mumbai	"Airoli, Navi Mumbai - MPCB"	23-04-2018 05:00:00	PM10	49	125	94		
+											353	India	Maharashtra	Navi Mumbai	"Airoli, Navi Mumbai - MPCB"	23-04-2018 05:00:00	SO2	28	33	31		
+											354	India	Maharashtra	Navi Mumbai	"Airoli, Navi Mumbai - MPCB"	23-04-2018 05:00:00	CO	77	85	82		
+											355	India	Maharashtra	Pune	"Karve Road Pune, Pune - MPCB"	23-04-2018 05:00:00	PM2.5	39	97	64		
+											356	India	Maharashtra	Pune	"Karve Road Pune, Pune - MPCB"	23-04-2018 05:00:00	PM10	58	130	93		
+											357	India	Maharashtra	Pune	"Karve Road Pune, Pune - MPCB"	23-04-2018 05:00:00	NO2	16	35	26		
+											358	India	Maharashtra	Pune	"Karve Road Pune, Pune - MPCB"	23-04-2018 05:00:00	SO2	39	86	65		
+											359	India	Maharashtra	Pune	"Karve Road Pune, Pune - MPCB"	23-04-2018 05:00:00	CO	41	65	48		
+											360	India	Maharashtra	Pune	"Karve Road Pune, Pune - MPCB"	23-04-2018 05:00:00	OZONE	9	19	16		
+											361	India	Maharashtra	Solapur	"Solapur, Solapur - MPCB"	23-04-2018 05:00:00	PM2.5	27	82	56		
+											362	India	Maharashtra	Solapur	"Solapur, Solapur - MPCB"	23-04-2018 05:00:00	PM10	70	158	100		
+											363	India	Maharashtra	Solapur	"Solapur, Solapur - MPCB"	23-04-2018 05:00:00	NO2	10	54	29		
+											364	India	Maharashtra	Solapur	"Solapur, Solapur - MPCB"	23-04-2018 05:00:00	SO2	24	27	25		
+											365	India	Maharashtra	Solapur	"Solapur, Solapur - MPCB"	23-04-2018 05:00:00	CO	47	86	66		
+											366	India	Maharashtra	Solapur	"Solapur, Solapur - MPCB"	23-04-2018 05:00:00	OZONE	31	196	196		
+											367	India	Maharashtra	Thane	"Pimpleshwar Mandir, Thane - MPCB"	23-04-2018 05:00:00	PM2.5	36	137	68		
+											368	India	Maharashtra	Thane	"Pimpleshwar Mandir, Thane - MPCB"	23-04-2018 05:00:00	PM10	102	221	141		
+											369	India	Maharashtra	Thane	"Pimpleshwar Mandir, Thane - MPCB"	23-04-2018 05:00:00	NO2	28	106	77		
+											370	India	Maharashtra	Thane	"Pimpleshwar Mandir, Thane - MPCB"	23-04-2018 05:00:00	NH3	13	63	37		
+											371	India	Maharashtra	Thane	"Pimpleshwar Mandir, Thane - MPCB"	23-04-2018 05:00:00	SO2	4	86	16		
+											372	India	Maharashtra	Thane	"Pimpleshwar Mandir, Thane - MPCB"	23-04-2018 05:00:00	CO	13	76	35		
+											373	India	Maharashtra	Thane	"Pimpleshwar Mandir, Thane - MPCB"	23-04-2018 05:00:00	OZONE	1	96	56		
+											374	India	Odisha	Brajrajnagar	"GM Office, Brajrajnagar - OSPCB"	23-04-2018 05:00:00	PM2.5	56	318	154		
+											375	India	Odisha	Brajrajnagar	"GM Office, Brajrajnagar - OSPCB"	23-04-2018 05:00:00	PM10	99	331	163		
+											376	India	Odisha	Brajrajnagar	"GM Office, Brajrajnagar - OSPCB"	23-04-2018 05:00:00	NO2	13	49	26		
+											377	India	Odisha	Brajrajnagar	"GM Office, Brajrajnagar - OSPCB"	23-04-2018 05:00:00	NH3	2	3	3		
+											378	India	Odisha	Brajrajnagar	"GM Office, Brajrajnagar - OSPCB"	23-04-2018 05:00:00	SO2	15	19	16		
+											379	India	Odisha	Brajrajnagar	"GM Office, Brajrajnagar - OSPCB"	23-04-2018 05:00:00	CO	114	126	115		
+											380	India	Odisha	Brajrajnagar	"GM Office, Brajrajnagar - OSPCB"	23-04-2018 05:00:00	OZONE	4	35	28		
+											381	India	Odisha	Talcher	"Talcher Coalfields,Talcher - OSPCB"	23-04-2018 05:00:00	PM2.5	1	359	81		
+											382	India	Odisha	Talcher	"Talcher Coalfields,Talcher - OSPCB"	23-04-2018 05:00:00	PM10	11	302	62		
+											383	India	Odisha	Talcher	"Talcher Coalfields,Talcher - OSPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											384	India	Odisha	Talcher	"Talcher Coalfields,Talcher - OSPCB"	23-04-2018 05:00:00	NH3	6	8	7		
+											385	India	Odisha	Talcher	"Talcher Coalfields,Talcher - OSPCB"	23-04-2018 05:00:00	SO2	57	82	68		
+											386	India	Odisha	Talcher	"Talcher Coalfields,Talcher - OSPCB"	23-04-2018 05:00:00	CO	76	101	83		
+											387	India	Odisha	Talcher	"Talcher Coalfields,Talcher - OSPCB"	23-04-2018 05:00:00	OZONE	3	40	23		
+											388	India	Punjab	Amritsar	"Golden Temple, Amritsar - PPCB"	23-04-2018 05:00:00	PM2.5	31	75	52		
+											389	India	Punjab	Amritsar	"Golden Temple, Amritsar - PPCB"	23-04-2018 05:00:00	PM10	74	118	98		
+											390	India	Punjab	Amritsar	"Golden Temple, Amritsar - PPCB"	23-04-2018 05:00:00	NO2	11	11	11		
+											391	India	Punjab	Amritsar	"Golden Temple, Amritsar - PPCB"	23-04-2018 05:00:00	NH3	2	2	2		
+											392	India	Punjab	Amritsar	"Golden Temple, Amritsar - PPCB"	23-04-2018 05:00:00	SO2	3	7	6		
+											393	India	Punjab	Amritsar	"Golden Temple, Amritsar - PPCB"	23-04-2018 05:00:00	CO	23	56	38		
+											394	India	Punjab	Jalandhar	"Civil Line, Jalandhar - PPCB"	23-04-2018 05:00:00	PM2.5	80	187	119		
+											395	India	Punjab	Jalandhar	"Civil Line, Jalandhar - PPCB"	23-04-2018 05:00:00	PM10	80	128	104		
+											396	India	Punjab	Jalandhar	"Civil Line, Jalandhar - PPCB"	23-04-2018 05:00:00	NO2	15	56	27		
+											397	India	Punjab	Jalandhar	"Civil Line, Jalandhar - PPCB"	23-04-2018 05:00:00	NH3	1	2	2		
+											398	India	Punjab	Jalandhar	"Civil Line, Jalandhar - PPCB"	23-04-2018 05:00:00	CO	37	64	45		
+											399	India	Punjab	Jalandhar	"Civil Line, Jalandhar - PPCB"	23-04-2018 05:00:00	OZONE	11	55	23		
+											400	India	Punjab	Khanna	"Kalal Majra, Khanna - PPCB"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											401	India	Punjab	Khanna	"Kalal Majra, Khanna - PPCB"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											402	India	Punjab	Khanna	"Kalal Majra, Khanna - PPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											403	India	Punjab	Khanna	"Kalal Majra, Khanna - PPCB"	23-04-2018 05:00:00	CO	NA	NA	NA		
+											404	India	Punjab	Ludhiana	"Punjab Agricultural University, Ludhiana - PPCB"	23-04-2018 05:00:00	PM2.5	48	100	75		
+											405	India	Punjab	Ludhiana	"Punjab Agricultural University, Ludhiana - PPCB"	23-04-2018 05:00:00	PM10	64	137	105		
+											406	India	Punjab	Ludhiana	"Punjab Agricultural University, Ludhiana - PPCB"	23-04-2018 05:00:00	NO2	25	25	25		
+											407	India	Punjab	Ludhiana	"Punjab Agricultural University, Ludhiana - PPCB"	23-04-2018 05:00:00	NH3	2	2	2		
+											408	India	Punjab	Ludhiana	"Punjab Agricultural University, Ludhiana - PPCB"	23-04-2018 05:00:00	SO2	2	21	7		
+											409	India	Punjab	Ludhiana	"Punjab Agricultural University, Ludhiana - PPCB"	23-04-2018 05:00:00	CO	24	43	33		
+											410	India	Punjab	Mandi Gobindgarh	"RIMT University, Mandi Gobindgarh - PPCB"	23-04-2018 05:00:00	PM2.5	80	379	286		
+											411	India	Punjab	Mandi Gobindgarh	"RIMT University, Mandi Gobindgarh - PPCB"	23-04-2018 05:00:00	PM10	110	264	196		
+											412	India	Punjab	Mandi Gobindgarh	"RIMT University, Mandi Gobindgarh - PPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											413	India	Punjab	Mandi Gobindgarh	"RIMT University, Mandi Gobindgarh - PPCB"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											414	India	Punjab	Mandi Gobindgarh	"RIMT University, Mandi Gobindgarh - PPCB"	23-04-2018 05:00:00	SO2	28	124	68		
+											415	India	Punjab	Mandi Gobindgarh	"RIMT University, Mandi Gobindgarh - PPCB"	23-04-2018 05:00:00	CO	55	93	71		
+											416	India	Punjab	Mandi Gobindgarh	"RIMT University, Mandi Gobindgarh - PPCB"	23-04-2018 05:00:00	OZONE	10	83	75		
+											417	India	Punjab	Patiala	"Model Town, Patiala - PPCB"	23-04-2018 05:00:00	PM2.5	31	83	62		
+											418	India	Punjab	Patiala	"Model Town, Patiala - PPCB"	23-04-2018 05:00:00	PM10	57	134	102		
+											419	India	Punjab	Patiala	"Model Town, Patiala - PPCB"	23-04-2018 05:00:00	NO2	39	64	50		
+											420	India	Punjab	Patiala	"Model Town, Patiala - PPCB"	23-04-2018 05:00:00	NH3	5	11	7		
+											421	India	Punjab	Patiala	"Model Town, Patiala - PPCB"	23-04-2018 05:00:00	CO	36	61	45		
+											422	India	Punjab	Patiala	"Model Town, Patiala - PPCB"	23-04-2018 05:00:00	OZONE	1	48	22		
+											423	India	Rajasthan	Ajmer	"Civil Lines, Ajmer - RSPCB"	23-04-2018 05:00:00	PM2.5	19	71	37		
+											424	India	Rajasthan	Ajmer	"Civil Lines, Ajmer - RSPCB"	23-04-2018 05:00:00	PM10	28	100	56		
+											425	India	Rajasthan	Ajmer	"Civil Lines, Ajmer - RSPCB"	23-04-2018 05:00:00	NO2	10	118	40		
+											426	India	Rajasthan	Ajmer	"Civil Lines, Ajmer - RSPCB"	23-04-2018 05:00:00	NH3	4	10	6		
+											427	India	Rajasthan	Ajmer	"Civil Lines, Ajmer - RSPCB"	23-04-2018 05:00:00	SO2	2	19	7		
+											428	India	Rajasthan	Ajmer	"Civil Lines, Ajmer - RSPCB"	23-04-2018 05:00:00	CO	18	69	22		
+											429	India	Rajasthan	Alwar	"Moti Doongri, Alwar, Rajasthan - RSPCB"	23-04-2018 05:00:00	PM2.5	19	57	35		
+											430	India	Rajasthan	Alwar	"Moti Doongri, Alwar, Rajasthan - RSPCB"	23-04-2018 05:00:00	PM10	50	96	72		
+											431	India	Rajasthan	Alwar	"Moti Doongri, Alwar, Rajasthan - RSPCB"	23-04-2018 05:00:00	NO2	33	48	38		
+											432	India	Rajasthan	Alwar	"Moti Doongri, Alwar, Rajasthan - RSPCB"	23-04-2018 05:00:00	NH3	4	5	4		
+											433	India	Rajasthan	Alwar	"Moti Doongri, Alwar, Rajasthan - RSPCB"	23-04-2018 05:00:00	SO2	6	17	11		
+											434	India	Rajasthan	Alwar	"Moti Doongri, Alwar, Rajasthan - RSPCB"	23-04-2018 05:00:00	CO	21	107	30		
+											435	India	Rajasthan	Bhiwadi	"RIICO Ind. Area III, Bhiwadi, Rajasthan - RSPCB"	23-04-2018 05:00:00	PM2.5	108	368	261		
+											436	India	Rajasthan	Bhiwadi	"RIICO Ind. Area III, Bhiwadi, Rajasthan - RSPCB"	23-04-2018 05:00:00	PM10	179	411	259		
+											437	India	Rajasthan	Bhiwadi	"RIICO Ind. Area III, Bhiwadi, Rajasthan - RSPCB"	23-04-2018 05:00:00	NO2	57	289	134		
+											438	India	Rajasthan	Bhiwadi	"RIICO Ind. Area III, Bhiwadi, Rajasthan - RSPCB"	23-04-2018 05:00:00	NH3	1	3	1		
+											439	India	Rajasthan	Bhiwadi	"RIICO Ind. Area III, Bhiwadi, Rajasthan - RSPCB"	23-04-2018 05:00:00	SO2	29	125	60		
+											440	India	Rajasthan	Bhiwadi	"RIICO Ind. Area III, Bhiwadi, Rajasthan - RSPCB"	23-04-2018 05:00:00	CO	8	49	12		
+											441	India	Rajasthan	Jaipur	"Adarsh Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	PM2.5	35	94	62		
+											442	India	Rajasthan	Jaipur	"Adarsh Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	PM10	90	134	108		
+											443	India	Rajasthan	Jaipur	"Adarsh Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	NO2	20	64	37		
+											444	India	Rajasthan	Jaipur	"Adarsh Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	NH3	2	4	3		
+											445	India	Rajasthan	Jaipur	"Adarsh Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	SO2	2	19	9		
+											446	India	Rajasthan	Jaipur	"Adarsh Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	CO	15	44	23		
+											447	India	Rajasthan	Jaipur	"Adarsh Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	OZONE	23	91	89		
+											448	India	Rajasthan	Jaipur	"Police Commissionerate, Jaipur - RSPCB"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											449	India	Rajasthan	Jaipur	"Police Commissionerate, Jaipur - RSPCB"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											450	India	Rajasthan	Jaipur	"Police Commissionerate, Jaipur - RSPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											451	India	Rajasthan	Jaipur	"Police Commissionerate, Jaipur - RSPCB"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											452	India	Rajasthan	Jaipur	"Police Commissionerate, Jaipur - RSPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											453	India	Rajasthan	Jaipur	"Police Commissionerate, Jaipur - RSPCB"	23-04-2018 05:00:00	CO	2	115	31		
+											454	India	Rajasthan	Jaipur	"Police Commissionerate, Jaipur - RSPCB"	23-04-2018 05:00:00	OZONE	5	42	21		
+											455	India	Rajasthan	Jaipur	"Shastri Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											456	India	Rajasthan	Jaipur	"Shastri Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	PM10	58	145	107		
+											457	India	Rajasthan	Jaipur	"Shastri Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	NO2	23	84	39		
+											458	India	Rajasthan	Jaipur	"Shastri Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	NH3	5	11	8		
+											459	India	Rajasthan	Jaipur	"Shastri Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	SO2	1	14	4		
+											460	India	Rajasthan	Jaipur	"Shastri Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	CO	13	49	20		
+											461	India	Rajasthan	Jaipur	"Shastri Nagar, Jaipur - RSPCB"	23-04-2018 05:00:00	OZONE	46	140	130		
+											462	India	Rajasthan	Jodhpur	"Collectorate, Jodhpur - RSPCB"	23-04-2018 05:00:00	PM2.5	140	324	220		
+											463	India	Rajasthan	Jodhpur	"Collectorate, Jodhpur - RSPCB"	23-04-2018 05:00:00	PM10	142	216	165		
+											464	India	Rajasthan	Jodhpur	"Collectorate, Jodhpur - RSPCB"	23-04-2018 05:00:00	NO2	11	90	47		
+											465	India	Rajasthan	Jodhpur	"Collectorate, Jodhpur - RSPCB"	23-04-2018 05:00:00	SO2	1	10	7		
+											466	India	Rajasthan	Jodhpur	"Collectorate, Jodhpur - RSPCB"	23-04-2018 05:00:00	CO	14	101	30		
+											467	India	Rajasthan	Jodhpur	"Collectorate, Jodhpur - RSPCB"	23-04-2018 05:00:00	OZONE	30	142	116		
+											468	India	Rajasthan	Kota	"Shrinath Puram, Kota - RSPCB"	23-04-2018 05:00:00	PM2.5	60	223	99		
+											469	India	Rajasthan	Kota	"Shrinath Puram, Kota - RSPCB"	23-04-2018 05:00:00	PM10	91	199	121		
+											470	India	Rajasthan	Kota	"Shrinath Puram, Kota - RSPCB"	23-04-2018 05:00:00	NO2	2	79	18		
+											471	India	Rajasthan	Kota	"Shrinath Puram, Kota - RSPCB"	23-04-2018 05:00:00	NH3	3	4	4		
+											472	India	Rajasthan	Kota	"Shrinath Puram, Kota - RSPCB"	23-04-2018 05:00:00	SO2	2	119	17		
+											473	India	Rajasthan	Kota	"Shrinath Puram, Kota - RSPCB"	23-04-2018 05:00:00	CO	14	104	32		
+											474	India	Rajasthan	Pali	"Indira Colony Vistar, Pali - RSPCB"	23-04-2018 05:00:00	PM2.5	70	320	229		
+											475	India	Rajasthan	Pali	"Indira Colony Vistar, Pali - RSPCB"	23-04-2018 05:00:00	PM10	88	213	137		
+											476	India	Rajasthan	Pali	"Indira Colony Vistar, Pali - RSPCB"	23-04-2018 05:00:00	NO2	5	22	11		
+											477	India	Rajasthan	Pali	"Indira Colony Vistar, Pali - RSPCB"	23-04-2018 05:00:00	NH3	2	11	8		
+											478	India	Rajasthan	Pali	"Indira Colony Vistar, Pali - RSPCB"	23-04-2018 05:00:00	SO2	6	42	17		
+											479	India	Rajasthan	Pali	"Indira Colony Vistar, Pali - RSPCB"	23-04-2018 05:00:00	CO	2	37	8		
+											480	India	Rajasthan	Pali	"Indira Colony Vistar, Pali - RSPCB"	23-04-2018 05:00:00	OZONE	9	112	88		
+											481	India	Rajasthan	Udaipur	"Ashok Nagar, Udaipur - RSPCB"	23-04-2018 05:00:00	PM2.5	69	187	113		
+											482	India	Rajasthan	Udaipur	"Ashok Nagar, Udaipur - RSPCB"	23-04-2018 05:00:00	PM10	126	199	153		
+											483	India	Rajasthan	Udaipur	"Ashok Nagar, Udaipur - RSPCB"	23-04-2018 05:00:00	NO2	26	63	39		
+											484	India	Rajasthan	Udaipur	"Ashok Nagar, Udaipur - RSPCB"	23-04-2018 05:00:00	NH3	4	7	6		
+											485	India	Rajasthan	Udaipur	"Ashok Nagar, Udaipur - RSPCB"	23-04-2018 05:00:00	SO2	9	20	14		
+											486	India	Rajasthan	Udaipur	"Ashok Nagar, Udaipur - RSPCB"	23-04-2018 05:00:00	CO	38	101	62		
+											487	India	TamilNadu	Chennai	"Manali, Chennai - CPCB"	23-04-2018 05:00:00	PM2.5	5	223	68		
+											488	India	TamilNadu	Chennai	"Manali, Chennai - CPCB"	23-04-2018 05:00:00	NO2	14	17	16		
+											489	India	TamilNadu	Chennai	"Manali, Chennai - CPCB"	23-04-2018 05:00:00	NH3	1	25	7		
+											490	India	TamilNadu	Chennai	"Manali, Chennai - CPCB"	23-04-2018 05:00:00	SO2	1	5	3		
+											491	India	TamilNadu	Chennai	"Manali, Chennai - CPCB"	23-04-2018 05:00:00	CO	27	70	48		
+											492	India	TamilNadu	Chennai	"Velachery Res. Area, Chennai - CPCB"	23-04-2018 05:00:00	PM2.5	35	95	72		
+											493	India	TamilNadu	Chennai	"Velachery Res. Area, Chennai - CPCB"	23-04-2018 05:00:00	NO2	25	65	39		
+											494	India	TamilNadu	Chennai	"Velachery Res. Area, Chennai - CPCB"	23-04-2018 05:00:00	SO2	1	5	4		
+											495	India	TamilNadu	Chennai	"Velachery Res. Area, Chennai - CPCB"	23-04-2018 05:00:00	CO	22	48	41		
+											496	India	TamilNadu	Chennai	"Velachery Res. Area, Chennai - CPCB"	23-04-2018 05:00:00	OZONE	20	44	40		
+											497	India	Telangana	Hyderabad	"Bollaram Industrial Area, Hyderabad - TSPCB"	23-04-2018 05:00:00	PM2.5	52	71	60		
+											498	India	Telangana	Hyderabad	"Bollaram Industrial Area, Hyderabad - TSPCB"	23-04-2018 05:00:00	PM10	73	145	96		
+											499	India	Telangana	Hyderabad	"Bollaram Industrial Area, Hyderabad - TSPCB"	23-04-2018 05:00:00	NO2	12	55	25		
+											500	India	Telangana	Hyderabad	"Bollaram Industrial Area, Hyderabad - TSPCB"	23-04-2018 05:00:00	NH3	3	5	5		
+											501	India	Telangana	Hyderabad	"Bollaram Industrial Area, Hyderabad - TSPCB"	23-04-2018 05:00:00	SO2	3	12	7		
+											502	India	Telangana	Hyderabad	"Bollaram Industrial Area, Hyderabad - TSPCB"	23-04-2018 05:00:00	CO	1	35	14		
+											503	India	Telangana	Hyderabad	"Bollaram Industrial Area, Hyderabad - TSPCB"	23-04-2018 05:00:00	OZONE	21	67	54		
+											504	India	Telangana	Hyderabad	"Central University, Hyderabad - TSPCB"	23-04-2018 05:00:00	PM2.5	32	52	42		
+											505	India	Telangana	Hyderabad	"Central University, Hyderabad - TSPCB"	23-04-2018 05:00:00	PM10	61	100	78		
+											506	India	Telangana	Hyderabad	"Central University, Hyderabad - TSPCB"	23-04-2018 05:00:00	NO2	20	80	38		
+											507	India	Telangana	Hyderabad	"Central University, Hyderabad - TSPCB"	23-04-2018 05:00:00	NH3	3	4	4		
+											508	India	Telangana	Hyderabad	"Central University, Hyderabad - TSPCB"	23-04-2018 05:00:00	SO2	1	9	2		
+											509	India	Telangana	Hyderabad	"Central University, Hyderabad - TSPCB"	23-04-2018 05:00:00	CO	4	62	29		
+											510	India	Telangana	Hyderabad	"Central University, Hyderabad - TSPCB"	23-04-2018 05:00:00	OZONE	38	111	90		
+											511	India	Telangana	Hyderabad	"ICRISAT Patancheru, Hyderabad - TSPCB"	23-04-2018 05:00:00	PM2.5	31	63	50		
+											512	India	Telangana	Hyderabad	"ICRISAT Patancheru, Hyderabad - TSPCB"	23-04-2018 05:00:00	PM10	50	106	72		
+											513	India	Telangana	Hyderabad	"ICRISAT Patancheru, Hyderabad - TSPCB"	23-04-2018 05:00:00	NO2	7	24	14		
+											514	India	Telangana	Hyderabad	"ICRISAT Patancheru, Hyderabad - TSPCB"	23-04-2018 05:00:00	NH3	2	3	2		
+											515	India	Telangana	Hyderabad	"ICRISAT Patancheru, Hyderabad - TSPCB"	23-04-2018 05:00:00	SO2	5	47	25		
+											516	India	Telangana	Hyderabad	"ICRISAT Patancheru, Hyderabad - TSPCB"	23-04-2018 05:00:00	CO	15	45	23		
+											517	India	Telangana	Hyderabad	"ICRISAT Patancheru, Hyderabad - TSPCB"	23-04-2018 05:00:00	OZONE	25	74	63		
+											518	India	Telangana	Hyderabad	"IDA Pashamylaram, Hyderabad - TSPCB"	23-04-2018 05:00:00	PM2.5	38	187	64		
+											519	India	Telangana	Hyderabad	"IDA Pashamylaram, Hyderabad - TSPCB"	23-04-2018 05:00:00	PM10	46	154	77		
+											520	India	Telangana	Hyderabad	"IDA Pashamylaram, Hyderabad - TSPCB"	23-04-2018 05:00:00	NO2	15	63	48		
+											521	India	Telangana	Hyderabad	"IDA Pashamylaram, Hyderabad - TSPCB"	23-04-2018 05:00:00	NH3	3	9	4		
+											522	India	Telangana	Hyderabad	"IDA Pashamylaram, Hyderabad - TSPCB"	23-04-2018 05:00:00	SO2	2	47	6		
+											523	India	Telangana	Hyderabad	"IDA Pashamylaram, Hyderabad - TSPCB"	23-04-2018 05:00:00	CO	16	83	48		
+											524	India	Telangana	Hyderabad	"IDA Pashamylaram, Hyderabad - TSPCB"	23-04-2018 05:00:00	OZONE	19	71	57		
+											525	India	Telangana	Hyderabad	"Sanathnagar, Hyderabad - TSPCB"	23-04-2018 05:00:00	PM2.5	60	91	77		
+											526	India	Telangana	Hyderabad	"Sanathnagar, Hyderabad - TSPCB"	23-04-2018 05:00:00	NO2	18	90	38		
+											527	India	Telangana	Hyderabad	"Sanathnagar, Hyderabad - TSPCB"	23-04-2018 05:00:00	SO2	5	10	7		
+											528	India	Telangana	Hyderabad	"Sanathnagar, Hyderabad - TSPCB"	23-04-2018 05:00:00	CO	14	49	24		
+											529	India	Telangana	Hyderabad	"Sanathnagar, Hyderabad - TSPCB"	23-04-2018 05:00:00	OZONE	14	106	71		
+											530	India	Telangana	Hyderabad	"Zoo Park, Hyderabad - TSPCB"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											531	India	Telangana	Hyderabad	"Zoo Park, Hyderabad - TSPCB"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											532	India	Telangana	Hyderabad	"Zoo Park, Hyderabad - TSPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											533	India	Telangana	Hyderabad	"Zoo Park, Hyderabad - TSPCB"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											534	India	Telangana	Hyderabad	"Zoo Park, Hyderabad - TSPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											535	India	Telangana	Hyderabad	"Zoo Park, Hyderabad - TSPCB"	23-04-2018 05:00:00	CO	18	38	25		
+											536	India	Telangana	Hyderabad	"Zoo Park, Hyderabad - TSPCB"	23-04-2018 05:00:00	OZONE	53	64	59		
+											537	India	Uttar_Pradesh	Agra	"Sanjay Palace, Agra - UPPCB"	23-04-2018 05:00:00	PM2.5	38	210	90		
+											538	India	Uttar_Pradesh	Agra	"Sanjay Palace, Agra - UPPCB"	23-04-2018 05:00:00	NO2	45	81	57		
+											539	India	Uttar_Pradesh	Agra	"Sanjay Palace, Agra - UPPCB"	23-04-2018 05:00:00	SO2	2	15	8		
+											540	India	Uttar_Pradesh	Agra	"Sanjay Palace, Agra - UPPCB"	23-04-2018 05:00:00	CO	20	46	25		
+											541	India	Uttar_Pradesh	Agra	"Sanjay Palace, Agra - UPPCB"	23-04-2018 05:00:00	OZONE	12	19	17		
+											542	India	Uttar_Pradesh	Ghaziabad	"Vasundhara, Ghaziabad, UP - UPPCB"	23-04-2018 05:00:00	PM2.5	34	227	99		
+											543	India	Uttar_Pradesh	Ghaziabad	"Vasundhara, Ghaziabad, UP - UPPCB"	23-04-2018 05:00:00	PM10	143	235	182		
+											544	India	Uttar_Pradesh	Ghaziabad	"Vasundhara, Ghaziabad, UP - UPPCB"	23-04-2018 05:00:00	NO2	22	137	63		
+											545	India	Uttar_Pradesh	Ghaziabad	"Vasundhara, Ghaziabad, UP - UPPCB"	23-04-2018 05:00:00	NH3	8	12	9		
+											546	India	Uttar_Pradesh	Ghaziabad	"Vasundhara, Ghaziabad, UP - UPPCB"	23-04-2018 05:00:00	SO2	13	112	37		
+											547	India	Uttar_Pradesh	Ghaziabad	"Vasundhara, Ghaziabad, UP - UPPCB"	23-04-2018 05:00:00	CO	16	96	27		
+											548	India	Uttar_Pradesh	Ghaziabad	"Vasundhara, Ghaziabad, UP - UPPCB"	23-04-2018 05:00:00	OZONE	18	199	82		
+											549	India	Uttar_Pradesh	Kanpur	"Nehru Nagar, Kanpur - UPPCB"	23-04-2018 05:00:00	PM2.5	37	293	84		
+											550	India	Uttar_Pradesh	Kanpur	"Nehru Nagar, Kanpur - UPPCB"	23-04-2018 05:00:00	NO2	38	168	87		
+											551	India	Uttar_Pradesh	Kanpur	"Nehru Nagar, Kanpur - UPPCB"	23-04-2018 05:00:00	SO2	6	106	16		
+											552	India	Uttar_Pradesh	Kanpur	"Nehru Nagar, Kanpur - UPPCB"	23-04-2018 05:00:00	CO	17	178	101		
+											553	India	Uttar_Pradesh	Kanpur	"Nehru Nagar, Kanpur - UPPCB"	23-04-2018 05:00:00	OZONE	6	73	48		
+											554	India	Uttar_Pradesh	Lucknow	"Central School, Lucknow - CPCB"	23-04-2018 05:00:00	PM2.5	1	500	221		
+											555	India	Uttar_Pradesh	Lucknow	"Central School, Lucknow - CPCB"	23-04-2018 05:00:00	NO2	40	61	48		
+											556	India	Uttar_Pradesh	Lucknow	"Central School, Lucknow - CPCB"	23-04-2018 05:00:00	SO2	1	7	2		
+											557	India	Uttar_Pradesh	Lucknow	"Central School, Lucknow - CPCB"	23-04-2018 05:00:00	CO	3	78	31		
+											558	India	Uttar_Pradesh	Lucknow	"Central School, Lucknow - CPCB"	23-04-2018 05:00:00	OZONE	32	88	80		
+											559	India	Uttar_Pradesh	Lucknow	"Lalbagh, Lucknow - CPCB"	23-04-2018 05:00:00	PM2.5	101	307	206		
+											560	India	Uttar_Pradesh	Lucknow	"Lalbagh, Lucknow - CPCB"	23-04-2018 05:00:00	NO2	41	101	65		
+											561	India	Uttar_Pradesh	Lucknow	"Lalbagh, Lucknow - CPCB"	23-04-2018 05:00:00	SO2	6	18	10		
+											562	India	Uttar_Pradesh	Lucknow	"Lalbagh, Lucknow - CPCB"	23-04-2018 05:00:00	CO	10	62	25		
+											563	India	Uttar_Pradesh	Lucknow	"Lalbagh, Lucknow - CPCB"	23-04-2018 05:00:00	OZONE	41	118	107		
+											564	India	Uttar_Pradesh	Lucknow	"Nishant Ganj, Lucknow - UPPCB"	23-04-2018 05:00:00	PM2.5	28	255	64		
+											565	India	Uttar_Pradesh	Lucknow	"Nishant Ganj, Lucknow - UPPCB"	23-04-2018 05:00:00	NO2	7	78	31		
+											566	India	Uttar_Pradesh	Lucknow	"Nishant Ganj, Lucknow - UPPCB"	23-04-2018 05:00:00	SO2	13	27	18		
+											567	India	Uttar_Pradesh	Lucknow	"Nishant Ganj, Lucknow - UPPCB"	23-04-2018 05:00:00	CO	9	57	27		
+											568	India	Uttar_Pradesh	Lucknow	"Nishant Ganj, Lucknow - UPPCB"	23-04-2018 05:00:00	OZONE	32	106	73		
+											569	India	Uttar_Pradesh	Lucknow	"Talkatora District Industries Center, Lucknow - CPCB"	23-04-2018 05:00:00	PM2.5	73	255	198		
+											570	India	Uttar_Pradesh	Lucknow	"Talkatora District Industries Center, Lucknow - CPCB"	23-04-2018 05:00:00	NO2	41	47	46		
+											571	India	Uttar_Pradesh	Lucknow	"Talkatora District Industries Center, Lucknow - CPCB"	23-04-2018 05:00:00	NH3	7	8	8		
+											572	India	Uttar_Pradesh	Lucknow	"Talkatora District Industries Center, Lucknow - CPCB"	23-04-2018 05:00:00	SO2	4	13	8		
+											573	India	Uttar_Pradesh	Lucknow	"Talkatora District Industries Center, Lucknow - CPCB"	23-04-2018 05:00:00	CO	18	37	27		
+											574	India	Uttar_Pradesh	Moradabad	"Lajpat Nagar, Moradabad - UPPCB"	23-04-2018 05:00:00	PM2.5	36	301	126		
+											575	India	Uttar_Pradesh	Moradabad	"Lajpat Nagar, Moradabad - UPPCB"	23-04-2018 05:00:00	PM10	133	349	208		
+											576	India	Uttar_Pradesh	Moradabad	"Lajpat Nagar, Moradabad - UPPCB"	23-04-2018 05:00:00	NO2	77	115	100		
+											577	India	Uttar_Pradesh	Moradabad	"Lajpat Nagar, Moradabad - UPPCB"	23-04-2018 05:00:00	SO2	2	14	9		
+											578	India	Uttar_Pradesh	Moradabad	"Lajpat Nagar, Moradabad - UPPCB"	23-04-2018 05:00:00	CO	2	114	21		
+											579	India	Uttar_Pradesh	Moradabad	"Lajpat Nagar, Moradabad - UPPCB"	23-04-2018 05:00:00	OZONE	21	122	104		
+											580	India	Uttar_Pradesh	Noida	"Sector - 125, Noida, UP - UPPCB"	23-04-2018 05:00:00	PM2.5	37	150	78		
+											581	India	Uttar_Pradesh	Noida	"Sector - 125, Noida, UP - UPPCB"	23-04-2018 05:00:00	PM10	138	230	172		
+											582	India	Uttar_Pradesh	Noida	"Sector - 125, Noida, UP - UPPCB"	23-04-2018 05:00:00	NO2	5	134	54		
+											583	India	Uttar_Pradesh	Noida	"Sector - 125, Noida, UP - UPPCB"	23-04-2018 05:00:00	NH3	8	12	10		
+											584	India	Uttar_Pradesh	Noida	"Sector - 125, Noida, UP - UPPCB"	23-04-2018 05:00:00	SO2	18	37	26		
+											585	India	Uttar_Pradesh	Noida	"Sector - 125, Noida, UP - UPPCB"	23-04-2018 05:00:00	CO	14	76	20		
+											586	India	Uttar_Pradesh	Noida	"Sector - 125, Noida, UP - UPPCB"	23-04-2018 05:00:00	OZONE	6	161	133		
+											587	India	Uttar_Pradesh	Noida	"Sector - 62, Noida, UP - IMD"	23-04-2018 05:00:00	PM2.5	44	133	76		
+											588	India	Uttar_Pradesh	Noida	"Sector - 62, Noida, UP - IMD"	23-04-2018 05:00:00	PM10	146	243	179		
+											589	India	Uttar_Pradesh	Noida	"Sector - 62, Noida, UP - IMD"	23-04-2018 05:00:00	NO2	15	45	34		
+											590	India	Uttar_Pradesh	Noida	"Sector - 62, Noida, UP - IMD"	23-04-2018 05:00:00	CO	46	82	66		
+											591	India	Uttar_Pradesh	Noida	"Sector - 62, Noida, UP - IMD"	23-04-2018 05:00:00	OZONE	13	57	53		
+											592	India	Uttar_Pradesh	Varanasi	"Ardhali Bazar, Varanasi - UPPCB"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											593	India	Uttar_Pradesh	Varanasi	"Ardhali Bazar, Varanasi - UPPCB"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											594	India	Uttar_Pradesh	Varanasi	"Ardhali Bazar, Varanasi - UPPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											595	India	Uttar_Pradesh	Varanasi	"Ardhali Bazar, Varanasi - UPPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											596	India	Uttar_Pradesh	Varanasi	"Ardhali Bazar, Varanasi - UPPCB"	23-04-2018 05:00:00	CO	16	92	42		
+											597	India	Uttar_Pradesh	Varanasi	"Ardhali Bazar, Varanasi - UPPCB"	23-04-2018 05:00:00	OZONE	65	81	72		
+											598	India	West_Bengal	Asanol	"Asanol Court Area, Asanol - WBPCB"	23-04-2018 05:00:00	PM2.5	83	234	152		
+											599	India	West_Bengal	Asanol	"Asanol Court Area, Asanol - WBPCB"	23-04-2018 05:00:00	PM10	74	134	108		
+											600	India	West_Bengal	Asanol	"Asanol Court Area, Asanol - WBPCB"	23-04-2018 05:00:00	NO2	25	62	40		
+											601	India	West_Bengal	Asanol	"Asanol Court Area, Asanol - WBPCB"	23-04-2018 05:00:00	NH3	4	10	8		
+											602	India	West_Bengal	Asanol	"Asanol Court Area, Asanol - WBPCB"	23-04-2018 05:00:00	SO2	1	15	5		
+											603	India	West_Bengal	Asanol	"Asanol Court Area, Asanol - WBPCB"	23-04-2018 05:00:00	CO	40	75	49		
+											604	India	West_Bengal	Asanol	"Asanol Court Area, Asanol - WBPCB"	23-04-2018 05:00:00	OZONE	5	134	97		
+											605	India	West_Bengal	Durgapur	"Sidhu Kanhu Indoor Stadium, Durgapur - WBPCB"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											606	India	West_Bengal	Durgapur	"Sidhu Kanhu Indoor Stadium, Durgapur - WBPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											607	India	West_Bengal	Durgapur	"Sidhu Kanhu Indoor Stadium, Durgapur - WBPCB"	23-04-2018 05:00:00	SO2	NA	NA	NA		
+											608	India	West_Bengal	Durgapur	"Sidhu Kanhu Indoor Stadium, Durgapur - WBPCB"	23-04-2018 05:00:00	CO	NA	NA	NA		
+											609	India	West_Bengal	Durgapur	"Sidhu Kanhu Indoor Stadium, Durgapur - WBPCB"	23-04-2018 05:00:00	OZONE	NA	NA	NA		
+											610	India	West_Bengal	Haldia	"Haldia, Haldia - WBPCB"	23-04-2018 05:00:00	PM10	9	93	49		
+											611	India	West_Bengal	Haldia	"Haldia, Haldia - WBPCB"	23-04-2018 05:00:00	NO2	8	22	14		
+											612	India	West_Bengal	Haldia	"Haldia, Haldia - WBPCB"	23-04-2018 05:00:00	SO2	5	68	20		
+											613	India	West_Bengal	Haldia	"Haldia, Haldia - WBPCB"	23-04-2018 05:00:00	CO	10	27	14		
+											614	India	West_Bengal	Haldia	"Haldia, Haldia - WBPCB"	23-04-2018 05:00:00	OZONE	11	20	18		
+											615	India	West_Bengal	Kolkata	"Victoria, Kolkata - WBPCB"	23-04-2018 05:00:00	PM2.5	17	61	41		
+											616	India	West_Bengal	Kolkata	"Victoria, Kolkata - WBPCB"	23-04-2018 05:00:00	PM10	33	103	56		
+											617	India	West_Bengal	Kolkata	"Victoria, Kolkata - WBPCB"	23-04-2018 05:00:00	NO2	14	74	35		
+											618	India	West_Bengal	Kolkata	"Victoria, Kolkata - WBPCB"	23-04-2018 05:00:00	NH3	2	3	2		
+											619	India	West_Bengal	Kolkata	"Victoria, Kolkata - WBPCB"	23-04-2018 05:00:00	SO2	2	6	4		
+											620	India	West_Bengal	Kolkata	"Victoria, Kolkata - WBPCB"	23-04-2018 05:00:00	CO	49	69	57		
+											621	India	West_Bengal	Kolkata	"Victoria, Kolkata - WBPCB"	23-04-2018 05:00:00	OZONE	8	85	54		
+											622	India	West_Bengal	Siliguri	"Ward-32 Bapupara, Siliguri - WBPCB"	23-04-2018 05:00:00	PM2.5	NA	NA	NA		
+											623	India	West_Bengal	Siliguri	"Ward-32 Bapupara, Siliguri - WBPCB"	23-04-2018 05:00:00	PM10	NA	NA	NA		
+											624	India	West_Bengal	Siliguri	"Ward-32 Bapupara, Siliguri - WBPCB"	23-04-2018 05:00:00	NO2	NA	NA	NA		
+											625	India	West_Bengal	Siliguri	"Ward-32 Bapupara, Siliguri - WBPCB"	23-04-2018 05:00:00	NH3	NA	NA	NA		
+											626	India	West_Bengal	Siliguri	"Ward-32 Bapupara, Siliguri - WBPCB"	23-04-2018 05:00:00	CO	36	42	39		
+											627	India	West_Bengal	Siliguri	"Ward-32 Bapupara, Siliguri - WBPCB"	23-04-2018 05:00:00	OZONE	77	95	89		

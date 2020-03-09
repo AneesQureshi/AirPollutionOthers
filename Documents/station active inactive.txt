@@ -1,0 +1,4 @@
+UPDATE tbl_station SET  active=FALSE WHERE id=106;
+CALL sp_searchList('i')
+
+SELECT COUNT(*) FROM tbl_station WHERE active=FALSE;

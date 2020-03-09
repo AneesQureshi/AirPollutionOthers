@@ -1,0 +1,440 @@
+/*
+SQLyog Ultimate v10.00 Beta1
+MySQL - 5.6.35-log : Database - airpollutionH_db
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`airpollutionH_db` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+USE `airpollutionH_db`;
+
+/*Table structure for table `tbl_aqi` */
+
+DROP TABLE IF EXISTS `tbl_aqi`;
+
+CREATE TABLE `tbl_aqi` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `aqi_value` varchar(45) DEFAULT NULL,
+  `station_id` int(11) NOT NULL,
+  `active` bit(1) NOT NULL,
+  `created_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`,`station_id`),
+  KEY `fk_stationid` (`station_id`),
+  CONSTRAINT `fk_stationid` FOREIGN KEY (`station_id`) REFERENCES `tbl_station` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_aqi` */
+
+insert  into `tbl_aqi`(`id`,`aqi_value`,`station_id`,`active`,`created_date`) values (1,'110',4,'','2018-04-26 11:03:00'),(2,'110',4,'','2018-05-02 11:05:51'),(3,'220',4,'','2018-05-01 11:05:51'),(4,'330',4,'','2018-04-30 11:05:51'),(5,'440',4,'','2018-04-29 11:05:51'),(6,'550',4,'','2018-04-28 11:05:51'),(7,'660',4,'','2018-04-27 11:05:51'),(8,'770',4,'','2018-04-26 11:05:51'),(9,'100',4,'','2018-05-03 11:07:22'),(10,'110',4,'','2018-05-02 11:07:22'),(11,'220',4,'','2018-05-01 11:07:22'),(12,'330',4,'','2018-04-30 11:07:22'),(13,'440',4,'','2018-04-29 11:07:22'),(14,'550',4,'','2018-04-28 11:07:22'),(15,'660',4,'','2018-04-27 11:07:22'),(16,'770',4,'','2018-04-26 11:07:22'),(17,'345',4,'','2018-05-03 11:31:15'),(18,'485',4,'','2018-05-02 11:31:15'),(19,'535',4,'','2018-05-01 11:31:15'),(20,'654',4,'','2018-04-30 11:31:15'),(21,'439',4,'','2018-04-29 11:31:15'),(22,'645',4,'','2018-04-28 11:31:15'),(23,'455',4,'','2018-04-27 11:31:15'),(24,'695',4,'','2018-04-26 11:31:16');
+
+/*Table structure for table `tbl_city` */
+
+DROP TABLE IF EXISTS `tbl_city`;
+
+CREATE TABLE `tbl_city` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `city` varchar(45) DEFAULT NULL,
+  `active` bit(1) DEFAULT NULL,
+  `created_date` datetime DEFAULT NULL,
+  `updated_date` datetime DEFAULT NULL,
+  `state_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `stateforeignkey_idx` (`state_id`),
+  CONSTRAINT `stateforeignkey` FOREIGN KEY (`state_id`) REFERENCES `tbl_state` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=68 DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_city` */
+
+insert  into `tbl_city`(`id`,`city`,`active`,`created_date`,`updated_date`,`state_id`) values (1,'Delhi',NULL,'2018-04-24 19:10:44',NULL,1),(2,'sitapur',NULL,'2018-04-25 11:44:41',NULL,1),(3,'Rajamahendravaram',NULL,'2018-04-25 11:51:37',NULL,1),(4,'Tirupati',NULL,'2018-04-25 11:51:48',NULL,2),(5,'Vijayawada',NULL,'2018-04-25 11:51:48',NULL,2),(6,'Visakhapatnam',NULL,'2018-04-25 11:51:48',NULL,2),(7,'Gaya',NULL,'2018-04-25 11:51:49',NULL,3),(8,'Muzaffarpur',NULL,'2018-04-25 11:51:49',NULL,3),(9,'Patna',NULL,'2018-04-25 11:51:49',NULL,3),(10,'Amaravati',NULL,'2018-04-25 11:51:49',NULL,4),(11,'Ahmedabad',NULL,'2018-04-25 11:51:49',NULL,4),(12,'Faridabad',NULL,'2018-04-25 11:51:49',NULL,4),(13,'Gurgaon',NULL,'2018-04-25 11:51:49',NULL,5),(14,'Panchkula',NULL,'2018-04-25 11:51:49',NULL,5),(15,'Rohtak',NULL,'2018-04-25 11:51:49',NULL,6),(16,'Jorapokhar',NULL,'2018-04-25 11:51:49',NULL,6),(17,'Bengaluru',NULL,'2018-04-25 11:51:49',NULL,6),(18,'Thiruvananthapuram',NULL,'2018-04-25 11:51:49',NULL,7),(19,'Dewas',NULL,'2018-04-25 11:51:49',NULL,8),(20,'Mandideep',NULL,'2018-04-25 11:51:49',NULL,9),(21,'Pithampur',NULL,'2018-04-25 11:51:49',NULL,10),(22,'Satna',NULL,'2018-04-25 11:51:49',NULL,11),(23,'Singrauli',NULL,'2018-04-25 11:51:49',NULL,12),(24,'Ujjain',NULL,'2018-04-25 11:51:49',NULL,13),(25,'Aurangabad',NULL,'2018-04-25 11:51:50',NULL,14),(26,'Chandrapur',NULL,'2018-04-25 11:51:50',NULL,15),(27,'Nagpur',NULL,'2018-04-25 11:51:50',NULL,16),(28,'Nashik',NULL,'2018-04-25 11:51:50',NULL,17),(29,'Navi Mumbai',NULL,'2018-04-25 11:51:50',NULL,18),(30,'Pune',NULL,'2018-04-25 11:51:50',NULL,19),(31,'Solapur',NULL,'2018-04-25 11:51:50',NULL,NULL),(32,'Thane',NULL,'2018-04-25 11:51:50',NULL,NULL),(33,'Brajrajnagar',NULL,'2018-04-25 11:51:50',NULL,NULL),(34,'Talcher',NULL,'2018-04-25 11:51:50',NULL,NULL),(35,'Amritsar',NULL,'2018-04-25 11:51:50',NULL,NULL),(36,'Jalandhar',NULL,'2018-04-25 11:51:50',NULL,NULL),(37,'Khanna',NULL,'2018-04-25 11:51:50',NULL,NULL),(38,'Ludhiana',NULL,'2018-04-25 11:51:50',NULL,NULL),(39,'Mandi Gobindgarh',NULL,'2018-04-25 11:51:50',NULL,NULL),(40,'Patiala',NULL,'2018-04-25 11:51:50',NULL,NULL),(41,'Ajmer',NULL,'2018-04-25 11:51:50',NULL,NULL),(42,'Alwar',NULL,'2018-04-25 11:51:50',NULL,NULL),(43,'Bhiwadi',NULL,'2018-04-25 11:51:50',NULL,NULL),(44,'Jaipur',NULL,'2018-04-25 11:51:50',NULL,NULL),(45,'Jodhpur',NULL,'2018-04-25 11:51:50',NULL,NULL),(46,'Kota',NULL,'2018-04-25 11:51:50',NULL,NULL),(47,'Pali',NULL,'2018-04-25 11:51:50',NULL,NULL),(48,'Udaipur',NULL,'2018-04-25 11:51:50',NULL,NULL),(49,'Chennai',NULL,'2018-04-25 11:51:50',NULL,NULL),(50,'Hyderabad',NULL,'2018-04-25 11:51:51',NULL,NULL),(51,'Agra',NULL,'2018-04-25 11:51:51',NULL,NULL),(52,'Ghaziabad',NULL,'2018-04-25 11:51:51',NULL,NULL),(53,'Kanpur',NULL,'2018-04-25 11:51:51',NULL,NULL),(54,'Lucknow',NULL,'2018-04-25 11:51:51',NULL,NULL),(55,'Moradabad',NULL,'2018-04-25 11:51:51',NULL,NULL),(56,'Noida',NULL,'2018-04-25 11:51:51',NULL,NULL),(57,'Varanasi',NULL,'2018-04-25 11:51:51',NULL,NULL),(58,'Asanol',NULL,'2018-04-25 11:51:51',NULL,NULL),(59,'Durgapur',NULL,'2018-04-25 11:51:51',NULL,NULL),(60,'Haldia',NULL,'2018-04-25 11:51:51',NULL,NULL),(61,'Kolkata',NULL,'2018-04-25 11:51:51',NULL,NULL),(62,'Siliguri',NULL,'2018-04-25 11:51:51',NULL,NULL),(63,'Howrah',NULL,'2018-04-27 15:47:22',NULL,NULL),(64,'Bangalore',NULL,'2018-05-09 13:54:22',NULL,NULL),(66,'Mumbai',NULL,'2018-05-09 09:21:15',NULL,NULL),(67,'Rupnagar',NULL,'2018-05-09 09:21:21',NULL,NULL);
+
+/*Table structure for table `tbl_country` */
+
+DROP TABLE IF EXISTS `tbl_country`;
+
+CREATE TABLE `tbl_country` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `country` varchar(45) DEFAULT NULL,
+  `active` bit(1) DEFAULT NULL,
+  `created_date` datetime DEFAULT NULL,
+  `updated_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_country` */
+
+insert  into `tbl_country`(`id`,`country`,`active`,`created_date`,`updated_date`) values (1,'India',NULL,'2018-04-24 19:10:43',NULL);
+
+/*Table structure for table `tbl_favourite` */
+
+DROP TABLE IF EXISTS `tbl_favourite`;
+
+CREATE TABLE `tbl_favourite` (
+  `id` int(11) NOT NULL,
+  `active` bit(1) DEFAULT NULL,
+  `created_date` datetime DEFAULT NULL,
+  `updated_date` datetime DEFAULT NULL,
+  `user_id` int(11) NOT NULL,
+  `city_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`,`user_id`,`city_id`),
+  KEY `fk_tbl_favourite_tbl_user1_idx` (`user_id`),
+  KEY `fk_tbl_favourite_tbl_city1_idx` (`city_id`),
+  CONSTRAINT `fk_tbl_favourite_tbl_city1` FOREIGN KEY (`city_id`) REFERENCES `tbl_city` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_tbl_favourite_tbl_user1` FOREIGN KEY (`user_id`) REFERENCES `tbl_user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_favourite` */
+
+/*Table structure for table `tbl_pollutant` */
+
+DROP TABLE IF EXISTS `tbl_pollutant`;
+
+CREATE TABLE `tbl_pollutant` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pollutant_name` varchar(45) DEFAULT NULL,
+  `pollutant_value` int(11) DEFAULT NULL,
+  `station_id` int(11) NOT NULL,
+  `active` bit(1) NOT NULL,
+  `created_date` datetime DEFAULT NULL,
+  `last_updated` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`,`station_id`),
+  KEY `fk_tbl_pollutant_details_tbl_station1_idx` (`station_id`),
+  CONSTRAINT `fk_tbl_pollutant_details_tbl_station1` FOREIGN KEY (`station_id`) REFERENCES `tbl_station` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8 COMMENT='		';
+
+/*Data for the table `tbl_pollutant` */
+
+insert  into `tbl_pollutant`(`id`,`pollutant_name`,`pollutant_value`,`station_id`,`active`,`created_date`,`last_updated`) values (1,'NO2',106,4,'','2018-05-08 10:29:51',NULL),(2,'NH3',66,4,'','2018-05-08 10:29:51',NULL),(3,'SO2',50,4,'','2018-05-08 10:29:51',NULL),(4,'CO',250,4,'','2018-05-08 10:29:51',NULL),(5,'OZONE',75,4,'','2018-05-08 10:29:51',NULL),(6,'PM10',38,4,'','2018-05-08 10:29:51',NULL),(7,'PM2.5',NULL,4,'','2018-05-08 10:29:51',NULL),(8,'H',NULL,4,'','2018-05-08 10:29:51',NULL),(9,'NO2',104,4,'','2018-05-03 09:22:25',NULL),(10,'NH3',66,4,'','2018-05-03 09:22:25',NULL),(11,'SO2',NULL,4,'','2018-05-03 09:22:25',NULL),(12,'CO',NULL,4,'','2018-05-03 09:22:25',NULL),(13,'OZONE',75,4,'','2018-05-03 09:22:25',NULL),(14,'PM10',38,4,'','2018-05-03 09:22:25',NULL),(15,'PM2.5',258,4,'','2018-05-03 09:22:25',NULL),(16,'H',96,4,'','2018-05-03 09:22:25',NULL),(17,'NO2',102,4,'','2018-05-02 10:26:13',NULL),(18,'NO2',103,4,'','2018-05-02 11:26:13',NULL),(19,'NO2',104,4,'','2018-05-01 12:26:13',NULL),(20,'NO2',105,4,'','2018-04-30 12:26:13',NULL),(21,'NO2',106,4,'','2018-04-29 12:26:14',NULL),(22,'NO2',107,4,'','2018-04-28 12:26:14',NULL),(23,'NO2',108,4,'','2018-04-27 12:26:14',NULL),(24,'NO2',109,4,'','2018-04-26 12:26:14',NULL),(25,'NO2',102,4,'','2018-05-03 13:07:12',NULL),(26,'NO2',102,4,'','2018-05-03 13:24:47',NULL),(27,'NO2',103,4,'','2018-05-02 13:24:47',NULL),(28,'NO2',104,4,'','2018-05-01 13:24:47',NULL),(29,'NO2',105,4,'','2018-04-30 13:24:47',NULL),(30,'NO2',106,4,'','2018-04-29 13:24:47',NULL),(31,'NO2',107,4,'','2018-04-28 13:24:47',NULL),(32,'NO2',108,4,'','2018-04-27 13:24:47',NULL),(33,'NO2',109,4,'','2018-04-26 13:24:48',NULL),(34,'NO2',103,4,'','2018-05-03 13:26:24',NULL);
+
+/*Table structure for table `tbl_state` */
+
+DROP TABLE IF EXISTS `tbl_state`;
+
+CREATE TABLE `tbl_state` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `state` varchar(45) DEFAULT NULL,
+  `active` bit(1) DEFAULT NULL,
+  `created_date` datetime DEFAULT NULL,
+  `updated_date` datetime DEFAULT NULL,
+  `country_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `CountryId_idx` (`country_id`),
+  CONSTRAINT `CountryId` FOREIGN KEY (`country_id`) REFERENCES `tbl_country` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_state` */
+
+insert  into `tbl_state`(`id`,`state`,`active`,`created_date`,`updated_date`,`country_id`) values (1,'Andhra_Pradesh',NULL,'2018-04-24 19:10:43',NULL,1),(2,'up',NULL,'2018-04-25 11:44:40',NULL,1),(3,'Bihar',NULL,'2018-04-25 11:51:48',NULL,1),(4,'Delhi',NULL,'2018-04-25 11:51:49',NULL,1),(5,'Gujarat',NULL,'2018-04-25 11:51:49',NULL,1),(6,'Haryana',NULL,'2018-04-25 11:51:49',NULL,1),(7,'Jharkhand',NULL,'2018-04-25 11:51:49',NULL,1),(8,'Karnataka',NULL,'2018-04-25 11:51:49',NULL,1),(9,'Kerala',NULL,'2018-04-25 11:51:49',NULL,1),(10,'Madhya Pradesh',NULL,'2018-04-25 11:51:49',NULL,1),(11,'Maharashtra',NULL,'2018-04-25 11:51:50',NULL,1),(12,'Odisha',NULL,'2018-04-25 11:51:50',NULL,1),(13,'Punjab',NULL,'2018-04-25 11:51:50',NULL,1),(14,'Rajasthan',NULL,'2018-04-25 11:51:50',NULL,1),(15,'TamilNadu',NULL,'2018-04-25 11:51:50',NULL,1),(16,'Telangana',NULL,'2018-04-25 11:51:51',NULL,1),(17,'Uttar_Pradesh',NULL,'2018-04-25 11:51:51',NULL,1),(18,'West_Bengal',NULL,'2018-04-25 11:51:51',NULL,1),(19,NULL,NULL,NULL,NULL,1);
+
+/*Table structure for table `tbl_station` */
+
+DROP TABLE IF EXISTS `tbl_station`;
+
+CREATE TABLE `tbl_station` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `station` varchar(45) DEFAULT NULL,
+  `aqi` varchar(45) DEFAULT NULL,
+  `latitude` varchar(45) DEFAULT NULL,
+  `longitude` varchar(45) DEFAULT NULL,
+  `city_id` int(11) NOT NULL,
+  `active` bit(1) DEFAULT NULL,
+  `created_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`,`city_id`),
+  KEY `fk_tbl_station_tbl_city1_idx` (`city_id`),
+  CONSTRAINT `fk_tbl_station_tbl_city1` FOREIGN KEY (`city_id`) REFERENCES `tbl_city` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=66 DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_station` */
+
+insert  into `tbl_station`(`id`,`station`,`aqi`,`latitude`,`longitude`,`city_id`,`active`,`created_date`) values (1,'Tirumala-APPCB, Tirupati, India','-','13.672986','79.351217',4,NULL,'2018-04-27 18:26:05'),(2,'GVMC Ram Nagar-APPCB, Visakhapatnam, India','-','17.720234','83.309521',6,NULL,'2018-04-27 18:26:07'),(3,'Collectorate Gaya, Gaya, India','-','24.7489694','84.9438395',7,NULL,'2018-04-27 18:26:08'),(4,'Muzaffarpur Collectorate, Muzaffarpur, India','118','26.0762','85.4115',8,NULL,'2018-04-27 18:26:08'),(5,'IGSC Planetarium Complex, Patna, India','151','25.3636','85.0755',9,NULL,'2018-04-27 18:26:09'),(6,'Mandir Marg, Delhi, Delhi, India','198','28.630362','77.197293',10,NULL,'2018-04-27 18:26:10'),(7,'R.K. Puram, Delhi, Delhi, India','185','28.566008','77.176743',10,NULL,'2018-04-27 18:26:10'),(8,'DTU, Delhi, Delhi, India','172','28.749722','77.116281',10,NULL,'2018-04-27 18:26:10'),(9,'IHBAS, Delhi, Delhi, India','164','28.6821516','77.3026128',10,NULL,'2018-04-27 18:26:10'),(10,'Dwarka, Delhi, Delhi, India','160','28.5895657','77.0496539',10,NULL,'2018-04-27 18:26:10'),(11,'Anand Vihar, Delhi, Delhi, India','160','28.645892','77.314853',10,NULL,'2018-04-27 18:26:10'),(12,'Shadipur, Delhi, Delhi, India','158','28.6522734','77.1564994',10,NULL,'2018-04-27 18:26:10'),(13,'Punjabi Bagh, Delhi, Delhi, India','158','28.661975','77.124156',10,NULL,'2018-04-27 18:26:10'),(14,'ITO, Delhi, Delhi, India','155','28.6226748','77.2479198',10,NULL,'2018-04-27 18:26:10'),(15,'IGI Airport, Delhi, Delhi, India','','28.5561624','77.09995779999997',10,NULL,'2018-04-27 18:26:10'),(16,'Civil Lines, Delhi, Delhi, India','','0','0',10,NULL,'2018-04-27 18:26:10'),(17,'Siri Fort, Delhi, Delhi, India','-','28.550138','77.213379',10,NULL,'2018-04-27 18:26:10'),(18,'Maninagar, Ahmedabad, India','','0','0',11,NULL,'2018-04-27 18:26:10'),(19,'Sector16A Faridabad, Faridabad, India','-','28.41012222','77.313775',12,NULL,'2018-04-27 18:26:11'),(20,'Vikas Sadan Gurgaon, Gurgaon, India','-','28.4501285','77.0263051',13,NULL,'2018-04-27 18:26:12'),(21,'Sector 6 Panchkula, Panchkula, India','','0','0',14,NULL,'2018-04-27 18:26:12'),(22,'MD University, Rohtak, Rohtak, India','-','28.870083','76.6205',15,NULL,'2018-04-27 18:26:13'),(23,'More Chowk, Waluj, Aurangabad, India','-','19.840204','75.244935',25,NULL,'2018-04-27 18:26:19'),(24,'Chandrapur, Chandrapur, India','93','19.95','79.3',26,NULL,'2018-04-27 18:26:20'),(25,'MIDC Khutala, Chandrapur, India','','0','0',26,NULL,'2018-04-27 18:26:20'),(26,'Civil Lines, Nagpur, India','113','21.1528765','79.0729793',27,NULL,'2018-04-27 18:26:21'),(27,'KTHM College, Nashik, India','118','19.9974533','73.7898023',28,NULL,'2018-04-27 18:26:22'),(28,'Katraj, Pune, Pune, India','173','18.459869','73.852306',30,NULL,'2018-04-27 18:26:23'),(29,'Hadapsar, Pune, Pune, India','104','18.502167','73.927456',30,NULL,'2018-04-27 18:26:23'),(30,'Bhosari, Pune, Pune, India','104','18.642103','73.849083',30,NULL,'2018-04-27 18:26:23'),(31,'Alandi, Pune, Pune, India','103','18.673708','73.891506',30,NULL,'2018-04-27 18:26:23'),(32,'Manjri, Pune, Pune, India','101','18.526778','73.975028',30,NULL,'2018-04-27 18:26:23'),(33,'Nigdi, Pune, Pune, India','94','18.661667','73.762331',30,NULL,'2018-04-27 18:26:23'),(34,'Shivajinagar, Pune, Pune, India','83','18.529603','73.849586',30,NULL,'2018-04-27 18:26:23'),(35,'Pashan, Pune, Pune, India','73','18.536428','73.805453',30,NULL,'2018-04-27 18:26:23'),(36,'Bhumkar Chowk, Pune, Pune, India','69','18.606219','73.750022',30,NULL,'2018-04-27 18:26:23'),(37,'Lohegaon, Pune, Pune, India','60','18.577864','73.908086',30,NULL,'2018-04-27 18:26:23'),(38,'Karve Road Pune, Pune, Pune, India','','0','0',30,NULL,'2018-04-27 18:26:23'),(39,'Solapur, Solapur, India','-','17.6599188','75.9063906',31,NULL,'2018-04-27 18:26:23'),(40,'Pimpleshwar Mandir, Dombivali, Thane, India','-','19.209401','73.093948',32,NULL,'2018-04-27 18:26:24'),(41,'VK Industrial Area Jaipur, Jaipur, India','','0','0',44,NULL,'2018-04-27 18:26:30'),(42,'Collectorate Jodhpur, Jodhpur, India','-','26.2920639','73.037911111111',45,NULL,'2018-04-27 18:26:31'),(43,'IIT, Chennai, Chennai, India','153','12.99251389','80.23744722',49,NULL,'2018-04-27 18:26:33'),(44,'Manali, Chennai, Chennai, India','93','13.164544','80.26285',49,NULL,'2018-04-27 18:26:33'),(45,'Chennai US Consulate, Chennai, India','21','13.08784','80.27847',49,NULL,'2018-04-27 18:26:33'),(46,'Alandur, Chennai, Chennai, India','-','12.99711389','80.19151667',49,NULL,'2018-04-27 18:26:34'),(47,'Sanathnagar, Hyderabad, India','-','17.457121','78.443493',50,NULL,'2018-04-27 18:26:34'),(48,'IDA Pashamylaram, Hyderabad, India','-','17.527465','78.176807',50,NULL,'2018-04-27 18:26:34'),(49,'Zoo Park, Bahadurpura West, Hyderabad, India','-','17.349694','78.451437',50,NULL,'2018-04-27 18:26:34'),(50,'Sanjay Palace, Agra, India','158','27.19865833','78.00598056',51,NULL,'2018-04-27 18:26:35'),(51,'Nehru Nagar, Kanpur, India','149','26.4703088','80.3251749',53,NULL,'2018-04-27 18:26:40'),(52,'Talkatora, Lucknow, India','198','26.83399722','80.8917361',54,NULL,'2018-04-27 18:26:40'),(53,'Central School, Lucknow, India','184','26.85272778','80.99632778',54,NULL,'2018-04-27 18:26:40'),(54,'Lalbagh, Lucknow, India','182','26.84578611','80.93874444',54,NULL,'2018-04-27 18:26:40'),(55,'Ardhali Bazar, Varanasi, India','','0','0',57,NULL,'2018-04-27 18:26:42'),(56,'Sidhu Kanhu Indoor Stadium, Durgapur, India','-','23.5204443','87.3119227',59,NULL,'2018-04-27 18:26:43'),(57,'Haldia, Haldia, India','-','22.06047','88.109737',60,NULL,'2018-04-27 18:26:44'),(58,'Victoria, Kolkata, India','','0','0',61,NULL,'2018-04-27 18:26:44'),(59,'Rabindra Bharati University, Kolkata, India','','0','0',61,NULL,'2018-04-27 18:26:44'),(60,'Howrah, Howrah, India','','0','0',63,NULL,'2018-04-27 18:26:46'),(61,'Peenya, Bangalore, India','114','13.0339','77.51321111',64,NULL,'2018-05-09 09:21:59'),(62,'BWSSB, Bangalore, India','74','12.93890556','77.69727222',64,NULL,'2018-05-09 09:21:59'),(63,'BTM, Bangalore, India','55','12.91281111','77.60921944',64,NULL,'2018-05-09 09:21:59'),(64,'SaneguravaHalli, Bangalore, India','-','12.9916694','77.545830555556',64,NULL,'2018-05-09 09:21:59'),(65,'City Railway Station, Bangalore, India','-','12.9773472','77.570697222222',64,NULL,'2018-05-09 09:21:59');
+
+/*Table structure for table `tbl_user` */
+
+DROP TABLE IF EXISTS `tbl_user`;
+
+CREATE TABLE `tbl_user` (
+  `id` int(11) NOT NULL,
+  `user_email` varchar(45) DEFAULT NULL,
+  `user_password` varchar(45) DEFAULT NULL,
+  `active` bit(1) DEFAULT NULL,
+  `created_date` datetime DEFAULT NULL,
+  `updated_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_user` */
+
+/* Procedure structure for procedure `sp_addPlace` */
+
+/*!50003 DROP PROCEDURE IF EXISTS  `sp_addPlace` */;
+
+DELIMITER $$
+
+/*!50003 CREATE DEFINER=`admin`@`%` PROCEDURE `sp_addPlace`(IN val_country VARCHAR(45),
+IN val_state VARCHAR(45),IN val_city VARCHAR(45))
+BEGIN
+IF NOT EXISTS(SELECT country FROM tbl_country where country=val_country)
+	THEN
+		BEGIN
+			INSERT INTO `tbl_country`(
+			`country`,`created_date`)
+			VALUES
+			(
+			val_country,
+			CURRENT_TIMESTAMP()
+			);
+		END;
+	
+	END IF;
+	
+	
+IF NOT EXISTS(SELECT state FROM tbl_state WHERE state=val_state)
+	THEN
+		BEGIN
+SELECT @countryId := id FROM tbl_country WHERE country=val_country;		
+		
+		INSERT INTO `tbl_state`
+(
+`state`,`created_date`,`country_id`)
+VALUES
+(
+val_state,
+CURRENT_TIMESTAMP(),@countryId);
+		END;
+	
+	END IF;
+	
+	IF NOT EXISTS(SELECT city FROM tbl_city WHERE city=val_city)
+	THEN
+		BEGIN
+		SELECT @stateId := id FROM tbl_state WHERE state=val_state;
+			
+		INSERT INTO `tbl_city`
+(
+`city`,`created_date`,`state_id`)
+VALUES
+(
+val_city,
+CURRENT_TIMESTAMP(),@stateId);
+		END;
+	
+	END IF;
+	
+    END */$$
+DELIMITER ;
+
+/* Procedure structure for procedure `sp_addPollutants` */
+
+/*!50003 DROP PROCEDURE IF EXISTS  `sp_addPollutants` */;
+
+DELIMITER $$
+
+/*!50003 CREATE DEFINER=`admin`@`%` PROCEDURE `sp_addPollutants`(IN val_PollutantName VARCHAR(45),
+IN val_PollutantValue VARCHAR(45),IN val_lat VARCHAR(45),IN val_long VARCHAR(45))
+BEGIN
+SELECT @stationId := id FROM tbl_station WHERE latitude=val_lat AND longitude=val_long;
+	
+		
+			INSERT INTO `tbl_pollutant`(
+			`pollutant_name`,
+			`pollutant_value`,
+			`station_id`,
+			`created_date`)
+			VALUES
+			(
+			val_PollutantName,
+			val_PollutantValue,
+			@stationId,
+			CURRENT_TIMESTAMP()
+			);
+		
+	
+	
+	
+    END */$$
+DELIMITER ;
+
+/* Procedure structure for procedure `sp_addStation` */
+
+/*!50003 DROP PROCEDURE IF EXISTS  `sp_addStation` */;
+
+DELIMITER $$
+
+/*!50003 CREATE DEFINER=`admin`@`%` PROCEDURE `sp_addStation`(IN val_stationName VARCHAR(45),
+IN val_aqi VARCHAR(45),IN val_lat VARCHAR(45),IN val_long VARCHAR(45),IN val_cityid VARCHAR(45))
+BEGIN
+IF NOT EXISTS(SELECT station FROM tbl_station WHERE station=val_stationName)
+	THEN
+		BEGIN
+			INSERT INTO `tbl_station`(
+			`station`,`aqi`,`latitude`,`longitude`,`city_id`,`created_date`)
+			VALUES
+			(
+			val_stationName,
+			val_aqi,
+			val_lat,
+			val_long,
+			val_cityid,
+			CURRENT_TIMESTAMP()
+			);
+		END;
+	
+	END IF;
+	
+    END */$$
+DELIMITER ;
+
+/* Procedure structure for procedure `sp_fetchCity` */
+
+/*!50003 DROP PROCEDURE IF EXISTS  `sp_fetchCity` */;
+
+DELIMITER $$
+
+/*!50003 CREATE DEFINER=`admin`@`%` PROCEDURE `sp_fetchCity`()
+BEGIN
+SELECT id,city FROM tbl_city order by id;
+    END */$$
+DELIMITER ;
+
+/* Procedure structure for procedure `sp_homepage` */
+
+/*!50003 DROP PROCEDURE IF EXISTS  `sp_homepage` */;
+
+DELIMITER $$
+
+/*!50003 CREATE DEFINER=`admin`@`%` PROCEDURE `sp_homepage`(  
+  IN val_latitude DOUBLE,
+  IN val_longitude DOUBLE,
+  IN val_radius DOUBLE
+  )
+BEGIN
+SELECT id,station,aqi,latitude,longitude,
+ 
+    (
+      3959 * ACOS(
+        COS(RADIANS(val_latitude)) * COS(RADIANS(`latitude`)) * COS(
+          RADIANS(`longitude`) - RADIANS(val_longitude)
+        ) + SIN(RADIANS(val_latitude)) * SIN(RADIANS(latitude))
+      )
+    ) AS distance FROM `tbl_station`  
+  HAVING distance < val_radius 
+  ORDER BY distance ;
+    END */$$
+DELIMITER ;
+
+/* Procedure structure for procedure `sp_locationCity` */
+
+/*!50003 DROP PROCEDURE IF EXISTS  `sp_locationCity` */;
+
+DELIMITER $$
+
+/*!50003 CREATE DEFINER=`admin`@`%` PROCEDURE `sp_locationCity`(  
+  IN val_loc VARCHAR(45)
+  
+  )
+BEGIN
+SET @loc = val_loc;
+SET @loc = CONCAT(@loc,'%');
+SELECT  c.id,c.city,s.state, d.`country`
+FROM tbl_city c 
+JOIN tbl_state s 
+ON c.state_id = s.`id`
+JOIN tbl_country d 
+ON d.`id` = s.country_id 
+WHERE c.city LIKE  @loc;
+    END */$$
+DELIMITER ;
+
+/* Procedure structure for procedure `sp_locationStation` */
+
+/*!50003 DROP PROCEDURE IF EXISTS  `sp_locationStation` */;
+
+DELIMITER $$
+
+/*!50003 CREATE DEFINER=`admin`@`%` PROCEDURE `sp_locationStation`(  
+  IN val_loc varchar(45)
+  
+  )
+BEGIN
+SET @loc = val_loc;
+SET @loc = CONCAT(@loc,'%');
+SELECT id,station FROM `tbl_station`
+WHERE station LIKE  @loc;
+    END */$$
+DELIMITER ;
+
+/* Procedure structure for procedure `sp_pollutantHistory` */
+
+/*!50003 DROP PROCEDURE IF EXISTS  `sp_pollutantHistory` */;
+
+DELIMITER $$
+
+/*!50003 CREATE DEFINER=`admin`@`%` PROCEDURE `sp_pollutantHistory`(  
+  IN val_stationId INT,
+  IN val_pollutantName VARCHAR(45)
+  
+  )
+BEGIN
+SELECT MAX(tbl.pollutant_value) as mvalue,tbl.created_date FROM (
+SELECT a.pollutant_value,DATE(created_date) 
+AS created_date 
+FROM tbl_pollutant a 
+WHERE a.station_id=val_stationId 
+AND pollutant_name=val_pollutantName
+AND a.created_date> DATE_SUB(NOW(),INTERVAL 7 DAY) 
+ORDER BY a.created_date DESC  ) tbl 
+GROUP BY tbl.created_date desc;
+    END */$$
+DELIMITER ;
+
+/* Procedure structure for procedure `sp_stationData` */
+
+/*!50003 DROP PROCEDURE IF EXISTS  `sp_stationData` */;
+
+DELIMITER $$
+
+/*!50003 CREATE DEFINER=`admin`@`%` PROCEDURE `sp_stationData`(  
+  IN val_stationId INT
+  
+  )
+BEGIN
+SELECT s.aqi,s.station,s.created_date  FROM tbl_station s WHERE s.id=val_stationId;
+SELECT p.pollutant_name,p.pollutant_value,p.created_date,s.id AS stationId
+FROM tbl_station s 
+JOIN tbl_pollutant p
+ON s.id	=p.station_id
+WHERE s.`id`=val_stationId AND p.created_date>DATE_SUB(NOW(),INTERVAL 1 HOUR)
+ORDER BY p.pollutant_value DESC;
+SELECT MAX(tbl.aqi_value),tbl.created_date FROM (
+SELECT a.id,a.aqi_value,a.station_id,a.active,DATE(created_date) AS created_date FROM tbl_aqi a WHERE a.station_id=4 
+AND a.created_date> DATE_SUB(NOW(),INTERVAL 7 DAY) ORDER BY a.created_date Desc  ) tbl GROUP BY tbl.created_date desc;
+    END */$$
+DELIMITER ;
+
+/* Procedure structure for procedure `sp_stationInCity` */
+
+/*!50003 DROP PROCEDURE IF EXISTS  `sp_stationInCity` */;
+
+DELIMITER $$
+
+/*!50003 CREATE DEFINER=`admin`@`%` PROCEDURE `sp_stationInCity`(  
+  IN val_cityId int
+  )
+BEGIN
+SELECT id,station,aqi,latitude,longitude from tbl_station where tbl_station.`city_id`=val_cityId;
+ 
+    
+    END */$$
+DELIMITER ;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;

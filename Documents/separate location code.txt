@@ -1,0 +1,165 @@
+********************code in homeController*******************
+
+//this api gets string in input and based on that returns the similar station names 
+        //[Route("api/LocationStation/{loc}")]
+        //[HttpGet]
+        //public IHttpActionResult LocationStation(string loc)
+        //{
+
+
+        //    List<StationModel> stationNames = new List<StationModel>();
+        //    StationModel sm = new StationModel();
+
+
+        //    try
+        //    {
+        //        stationNames = sm.LocationStation(loc);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        string msg = ex.Message;
+        //    }
+        //    return Ok(stationNames);
+        //}
+
+
+        //this api gets string in input and based on that returns the similar city,state,country names
+        //[Route("api/LocationCity/{loc}")]
+        //[HttpGet]
+        //public IHttpActionResult LocationCity(string loc)
+        //{
+
+
+        //    List<LocationModel> cityNames = new List<LocationModel>();
+        //    LocationModel lm = new LocationModel();
+
+
+        //    try
+        //    {
+        //        cityNames = lm.LocationCity(loc);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        string msg = ex.Message;
+        //    }
+        //    return Ok(cityNames);
+        //}
+
+********************************************code in  location model************
+ //this api gets string in input and based on that returns the similar city,state,country names
+        //public List<LocationModel> LocationCity(string loc)
+        //{
+
+        //    List<LocationModel> cityNames = new List<LocationModel>();
+
+        //    try
+        //    {
+
+        //        DbHelper db = new DbHelper();
+        //        cityNames = db.LocationCity(loc);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        string msg = ex.Message;
+        //    }
+        //    return cityNames;
+
+        //}
+******************************code in stationModel*****************
+//this api gets string in input and based on that returns the similar station names 
+        //public List<StationModel> LocationStation(string loc)
+        //{
+
+        //    List<StationModel> stationNames = new List<StationModel>();
+
+        //    try
+        //    {
+
+        //        DbHelper db = new DbHelper();
+        //        stationNames = db.LocationStation(loc);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        string msg = ex.Message;
+        //    }
+        //    return stationNames;
+
+        //}
+*************code in db helper***************************
+ //this api gets string in input and based on that returns the similar station names 
+        //public List<StationModel> LocationStation(string loc)
+        //{
+
+
+        //    List<StationModel> stationNames = new List<StationModel>();
+           
+
+        //    try
+        //    {
+        //        con = db.OpenConnection();
+        //        cmd = new MySqlCommand("sp_locationStation", con);
+        //        cmd.CommandType = CommandType.StoredProcedure;
+               
+        //        cmd.Parameters.AddWithValue("val_loc", loc);
+        //        MySqlDataReader sdr = cmd.ExecuteReader();
+
+        //        while (sdr.Read())
+        //        {
+        //            StationModel station = new StationModel();
+        //            station.stationId = sdr["id"].ToString();
+        //            station.stationName = sdr["station"].ToString();
+        //            stationNames.Add(station);
+
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        string message = ex.Message;
+        //    }
+        //    finally
+        //    {
+        //        db.CloseConnection();
+        //    }
+        //    return stationNames;
+        //}
+
+        ////this api gets string in input and based on that returns the similar city,state,country names
+        //public List<LocationModel> LocationCity(string loc)
+        //{
+
+
+        //    List<LocationModel> cityNames = new List<LocationModel>();
+
+
+
+        //    try
+        //    {
+        //        con = db.OpenConnection();
+        //        cmd = new MySqlCommand("sp_locationCity", con);
+        //        cmd.CommandType = CommandType.StoredProcedure;
+
+        //        cmd.Parameters.AddWithValue("val_loc", loc);
+        //        MySqlDataReader sdr = cmd.ExecuteReader();
+
+        //        while (sdr.Read())
+        //        {
+        //            LocationModel city = new LocationModel();
+        //            city.cityId = sdr["id"].ToString();
+        //            city.city = sdr["city"].ToString();
+        //            city.state = sdr["state"].ToString();
+        //            city.country = sdr["country"].ToString();
+        //            cityNames.Add(city);
+
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        string message = ex.Message;
+        //    }
+        //    finally
+        //    {
+        //        db.CloseConnection();
+        //    }
+        //    return cityNames;
+        //}
+*****************************************
